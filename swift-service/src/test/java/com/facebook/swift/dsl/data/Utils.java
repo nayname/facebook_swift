@@ -25,6 +25,7 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -66,9 +67,12 @@ public class Utils {
         return (int)((max - min) / (min / 100));
   }
   
-  public static void writeFile(List<String> lines, String filename) throws IOException {
+  public static void writeFile(List<String> lines, String filename, boolean append) throws IOException {
     Path file = Paths.get(filename);
-    Files.write(file, lines, Charset.forName("UTF-8"));
+    if (append)
+      Files.write(file, lines, Charset.forName("UTF-8"), StandardOpenOption.APPEND);
+    else
+      Files.write(file, lines, Charset.forName("UTF-8"));
   }
 
   public static String readUrl(String urlString) throws Exception {

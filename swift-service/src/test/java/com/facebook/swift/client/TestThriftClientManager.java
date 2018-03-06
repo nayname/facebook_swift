@@ -23,10 +23,13 @@ import java.io.FileOutputStream;
 import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.facebook.swift.dsl.DSL;
 import com.facebook.swift.dsl.formats.redirect.RedirectDSL;
+import com.facebook.swift.dsl.formats.test.TestDSL;
 import com.facebook.swift.service.ThriftServerConfig;
 import com.facebook.swift.service.async.DelayedMap;
 import com.facebook.swift.service.async.DelayedMapSyncHandler;
@@ -52,6 +55,28 @@ public class TestThriftClientManager extends SuiteBase<DelayedMap.Service, Delay
   {
     // Test that getRemoteAddress on a client that connected to '127.0.0.1' does not resolve the IP to 'localhost'
     // (because doing a reverse lookup causes performance problems - e.g. for logging code)
-    assertTrue(getClientManager().getRemoteAddress(getClient()).toString().startsWith(LOCALHOST_IP_ADDRESS));
+
+    try {
+      ArrayList<String> inputs = new ArrayList<>();
+      inputs.add(LOCALHOST_IP_ADDRESS);
+      ArrayList<String> outputs = new ArrayList<>();
+      HashMap<String, Object> env = new HashMap<>();
+
+      new TestDSL(inputs, outputs);
+
+      TestDSL.getInstance().send("BeforeStart");
+      TestDSL.getInstance().execute("Start", 1, inputs, env);
+      TestDSL.getInstance().send("Start");
+
+      getClientManager().getRemoteAddress(getClient());
+
+      TestDSL.getInstance().send("BeforeTerminate");
+      TestDSL.getInstance().execute("Terminate", 3, null, env);
+      TestDSL.getInstance().send("Terminate");
+    }
+    catch (Exception e) {
+      throw new IllegalArgumentException("Invalid swift client object", e);
+    }
+
   }
 }

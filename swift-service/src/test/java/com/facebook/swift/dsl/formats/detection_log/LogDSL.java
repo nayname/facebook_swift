@@ -87,7 +87,7 @@ public class LogDSL extends DSL {
       d.flush_buffer(out);
       d.clear();
     }
-    send();
+    send(null);
   }
 }
 

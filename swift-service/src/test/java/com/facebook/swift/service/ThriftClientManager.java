@@ -26,7 +26,8 @@ import com.facebook.nifty.core.TChannelBufferOutputTransport;
 import com.facebook.nifty.duplex.TProtocolPair;
 import com.facebook.nifty.duplex.TTransportPair;
 import com.facebook.swift.codec.ThriftCodecManager;
-import com.facebook.swift.dsl.formats.redirect.RedirectDSL;
+import com.facebook.swift.dsl.DSL;
+import com.facebook.swift.dsl.formats.test.TestDSL;
 import com.facebook.swift.service.metadata.ThriftMethodMetadata;
 import com.facebook.swift.service.metadata.ThriftServiceMetadata;
 import com.google.common.base.Function;
@@ -70,6 +71,7 @@ import java.net.InetSocketAddress;
 import java.net.SocketAddress;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -344,42 +346,21 @@ public class ThriftClientManager implements Closeable
      */
     public HostAndPort getRemoteAddress(Object client)
     {
-      HashSet<String> inps = new HashSet<String>();      
-
-      Writer writer = null;
+      
+      HashMap<String, Object> env = new HashMap<>();
+      env.put("client", client.toString());
+      TestDSL.getInstance().execute("GetRemoteAddress", 1, null, env);
+      NiftyClientChannel niftyChannel = getNiftyChannel(client);
 
       try {
-//        for ( ArrayList<String> r : new Gson().fromJson(new FileReader(dsl_buffer+"all_requests.json"), ArrayList[].class)) {
-//          inps.add(r.get(0).trim().toLowerCase());
-//        }
-        Set<String> ins = new HashSet<String>(inps);
-        ArrayList<String> inputs = new ArrayList<String>(ins);
-
-        writer = new BufferedWriter(new OutputStreamWriter(
-            new FileOutputStream("/root/buck/filename.txt"), "utf-8"));
-
-        Integer[] outputs = new Integer[10];
-
-        RedirectDSL rdsl = new RedirectDSL(inputs, new ArrayList<Integer>(Arrays.asList(outputs)), null);
-        rdsl.check_redirects();
-        writer.write("TC: "+rdsl.toString());
-        
-      } catch (Exception ex) {
-        // Report
-      } finally {
-        try {writer.close();} catch (Exception ex) {/*ignore*/}
+        Channel nettyChannel = niftyChannel.getNettyChannel();
+        SocketAddress address = nettyChannel.getRemoteAddress();
+        InetSocketAddress inetAddress = (InetSocketAddress) address;
+        return HostAndPort.fromParts(inetAddress.getHostString(), inetAddress.getPort());
       }
-        NiftyClientChannel niftyChannel = getNiftyChannel(client);
-
-        try {
-            Channel nettyChannel = niftyChannel.getNettyChannel();
-            SocketAddress address = nettyChannel.getRemoteAddress();
-            InetSocketAddress inetAddress = (InetSocketAddress) address;
-            return HostAndPort.fromParts(inetAddress.getHostString(), inetAddress.getPort());
-        }
-        catch (NullPointerException | ClassCastException e) {
-            throw new IllegalArgumentException("Invalid swift client object", e);
-        }
+      catch (NullPointerException | ClassCastException e) {
+        throw new IllegalArgumentException("Invalid swift client object", e);
+      }
     }
 
     public TProtocol getOutputProtocol(Object client)
