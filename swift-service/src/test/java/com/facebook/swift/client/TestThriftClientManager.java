@@ -15,16 +15,23 @@
  */
 package com.facebook.swift.client;
 
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.Writer;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
+import com.facebook.swift.dsl.formats.redirect.RedirectDSL;
 import com.facebook.swift.service.ThriftServerConfig;
 import com.facebook.swift.service.async.DelayedMap;
 import com.facebook.swift.service.async.DelayedMapSyncHandler;
 import com.facebook.swift.service.base.SuiteBase;
+import com.google.gson.Gson;
 
 import org.testng.annotations.Test;
 
@@ -33,6 +40,7 @@ import static org.testng.Assert.assertTrue;
 public class TestThriftClientManager extends SuiteBase<DelayedMap.Service, DelayedMap.Client>
 {
   public static final String LOCALHOST_IP_ADDRESS = "127.0.0.1";
+  private static String dsl_buffer = "/root/data/dsl_buffer/";
 
   public TestThriftClientManager()
   {
@@ -44,17 +52,6 @@ public class TestThriftClientManager extends SuiteBase<DelayedMap.Service, Delay
   {
     // Test that getRemoteAddress on a client that connected to '127.0.0.1' does not resolve the IP to 'localhost'
     // (because doing a reverse lookup causes performance problems - e.g. for logging code)
-    Writer writer = null;
-
-    try {
-      writer = new BufferedWriter(new OutputStreamWriter(
-          new FileOutputStream("/root/buck/filename.txt"), "utf-8"));
-      writer.write("Something");
-    } catch (IOException ex) {
-      // Report
-    } finally {
-      try {writer.close();} catch (Exception ex) {/*ignore*/}
-    }
     assertTrue(getClientManager().getRemoteAddress(getClient()).toString().startsWith(LOCALHOST_IP_ADDRESS));
   }
 }
