@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="89" passed="89">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="7199" started-at="2018-03-05T19:56:11Z" finished-at="2018-03-05T19:56:18Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="7199" started-at="2018-03-05T19:56:11Z" finished-at="2018-03-05T19:56:18Z">
+      <class name="com.facebook.swift.service.async.AsyncHttpClientTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncHttpClientTest@c81cdd1]" name="setup" is-config="true" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testHttpAsyncClient()[pri:0, instance:com.facebook.swift.service.async.AsyncHttpClientTest@c81cdd1]" name="testHttpAsyncClient" duration-ms="271" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHttpAsyncClient -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncHttpClientTest@c81cdd1]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncHttpClientTest@c81cdd1]" name="setup" is-config="true" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testHttpClient()[pri:0, instance:com.facebook.swift.service.async.AsyncHttpClientTest@c81cdd1]" name="testHttpClient" duration-ms="113" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHttpClient -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncHttpClientTest@c81cdd1]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.facebook.swift.service.async.AsyncHttpClientTest -->
+      <class name="com.facebook.swift.generics.TestGenericProcessor">
+        <test-method status="PASS" signature="testGenericProcessor()[pri:0, instance:com.facebook.swift.generics.TestGenericProcessor@2de8284b]" name="testGenericProcessor" duration-ms="14" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenericProcessor -->
+      </class> <!-- com.facebook.swift.generics.TestGenericProcessor -->
+      <class name="com.facebook.swift.service.puma.TestPuma">
+        <test-method status="PASS" signature="testPumaDirect()[pri:0, instance:com.facebook.swift.service.puma.TestPuma@28ac3dc3]" name="testPumaDirect" duration-ms="2" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPumaDirect -->
+        <test-method status="PASS" signature="testPumaSwift()[pri:0, instance:com.facebook.swift.service.puma.TestPuma@28ac3dc3]" name="testPumaSwift" duration-ms="55" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPumaSwift -->
+        <test-method status="PASS" signature="testPumaDirectException()[pri:0, instance:com.facebook.swift.service.puma.TestPuma@28ac3dc3]" name="testPumaDirectException" duration-ms="0" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPumaDirectException -->
+        <test-method status="PASS" signature="testPumaSwiftException()[pri:0, instance:com.facebook.swift.service.puma.TestPuma@28ac3dc3]" name="testPumaSwiftException" duration-ms="35" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPumaSwiftException -->
+      </class> <!-- com.facebook.swift.service.puma.TestPuma -->
+      <class name="com.facebook.swift.service.async.AsyncClientTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="101" started-at="2018-03-05T19:56:11Z" finished-at="2018-03-05T19:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAsyncClient()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testAsyncClient" duration-ms="675" started-at="2018-03-05T19:56:11Z" finished-at="2018-03-05T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAsyncClient -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:12Z" finished-at="2018-03-05T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="17" started-at="2018-03-05T19:56:12Z" finished-at="2018-03-05T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAsyncConnection()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testAsyncConnection" duration-ms="616" started-at="2018-03-05T19:56:12Z" finished-at="2018-03-05T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAsyncConnection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:12Z" finished-at="2018-03-05T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="9" started-at="2018-03-05T19:56:12Z" finished-at="2018-03-05T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAsyncEarlyListener()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testAsyncEarlyListener" duration-ms="513" started-at="2018-03-05T19:56:12Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAsyncEarlyListener -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="5" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="10" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAsyncLateListener()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testAsyncLateListener" duration-ms="514" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAsyncLateListener -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="4" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="8" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAsyncOneWay()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testAsyncOneWay" duration-ms="13" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAsyncOneWay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="105" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="12" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAsyncOutOfOrder()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testAsyncOutOfOrder" duration-ms="513" started-at="2018-03-05T19:56:13Z" finished-at="2018-03-05T19:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAsyncOutOfOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="3" started-at="2018-03-05T19:56:14Z" finished-at="2018-03-05T19:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="9" started-at="2018-03-05T19:56:14Z" finished-at="2018-03-05T19:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAsyncTimeout()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testAsyncTimeout" duration-ms="1104" started-at="2018-03-05T19:56:14Z" finished-at="2018-03-05T19:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAsyncTimeout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="412" started-at="2018-03-05T19:56:15Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testClientCreateFailure()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testClientCreateFailure" duration-ms="13" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientCreateFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="8" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="setup" is-config="true" duration-ms="6" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSyncClient()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="testSyncClient" duration-ms="19" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyncClient -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.swift.service.async.AsyncClientTest@43738a82]" name="tearDown" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.facebook.swift.service.async.AsyncClientTest -->
+      <class name="com.facebook.swift.service.annotations.TestThriftServiceAnnotationConflicts">
+        <test-method status="PASS" signature="testInheritCombinedInterface()[pri:0, instance:com.facebook.swift.service.annotations.TestThriftServiceAnnotationConflicts@2a70a3d8]" name="testInheritCombinedInterface" duration-ms="1" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInheritCombinedInterface -->
+        <test-method status="PASS" signature="testInheritBaseInterface()[pri:0, instance:com.facebook.swift.service.annotations.TestThriftServiceAnnotationConflicts@2a70a3d8]" name="testInheritBaseInterface" duration-ms="0" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInheritBaseInterface -->
+        <test-method status="PASS" signature="testInheritMultipleDerviedInterfacesWithExplicitAnnotation()[pri:0, instance:com.facebook.swift.service.annotations.TestThriftServiceAnnotationConflicts@2a70a3d8]" name="testInheritMultipleDerviedInterfacesWithExplicitAnnotation" duration-ms="1" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInheritMultipleDerviedInterfacesWithExplicitAnnotation -->
+        <test-method status="PASS" signature="testInheritMultipleDerivedInterfaces()[pri:0, instance:com.facebook.swift.service.annotations.TestThriftServiceAnnotationConflicts@2a70a3d8]" name="testInheritMultipleDerivedInterfaces" duration-ms="0" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Service class com.facebook.swift.service.annotations.MultipleDerivedServiceImplementation has multiple conflicting @ThriftService annotations: [@com.facebook.swift.service.ThriftService(value=DerivedServiceOne), @com.facebook.swift.service.ThriftService(value=DerivedServiceTwo)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Service class com.facebook.swift.service.annotations.MultipleDerivedServiceImplementation has multiple conflicting @ThriftService annotations: [@com.facebook.swift.service.ThriftService(value=DerivedServiceOne), @com.facebook.swift.service.ThriftService(value=DerivedServiceTwo)]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.facebook.swift.service.metadata.ThriftServiceMetadata.getThriftServiceAnnotation(ThriftServiceMetadata.java:137)
+	at com.facebook.swift.service.annotations.TestThriftServiceAnnotationConflicts.testInheritMultipleDerivedInterfaces(TestThriftServiceAnnotationConflicts.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInheritMultipleDerivedInterfaces -->
+        <test-method status="PASS" signature="testInheritSingleDerivedInterface()[pri:0, instance:com.facebook.swift.service.annotations.TestThriftServiceAnnotationConflicts@2a70a3d8]" name="testInheritSingleDerivedInterface" duration-ms="0" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInheritSingleDerivedInterface -->
+      </class> <!-- com.facebook.swift.service.annotations.TestThriftServiceAnnotationConflicts -->
+      <class name="com.facebook.swift.service.TestThriftClientConfig">
+        <test-method status="PASS" signature="testDefaults()[pri:0, instance:com.facebook.swift.service.TestThriftClientConfig@13eb8acf]" name="testDefaults" duration-ms="48" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaults -->
+        <test-method status="PASS" signature="testExplicitPropertyMappings()[pri:0, instance:com.facebook.swift.service.TestThriftClientConfig@13eb8acf]" name="testExplicitPropertyMappings" duration-ms="2" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExplicitPropertyMappings -->
+        <test-method status="PASS" signature="testGuiceInjection()[pri:0, instance:com.facebook.swift.service.TestThriftClientConfig@13eb8acf]" name="testGuiceInjection" duration-ms="20" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuiceInjection -->
+      </class> <!-- com.facebook.swift.service.TestThriftClientConfig -->
+      <class name="com.facebook.swift.service.TestProcessor">
+        <test-method status="PASS" signature="testConflictingMethodNames()[pri:0, instance:com.facebook.swift.service.TestProcessor@543c6f6d]" name="testConflictingMethodNames" duration-ms="230" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConflictingMethodNames -->
+      </class> <!-- com.facebook.swift.service.TestProcessor -->
+      <class name="com.facebook.swift.service.oneway.OnewayTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.facebook.swift.service.oneway.OnewayTest@3891771e]" name="setupSuite" is-config="true" duration-ms="0" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.oneway.OnewayTest@3891771e]" name="setupTest" is-config="true" duration-ms="11" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testOneWayThrow()[pri:0, instance:com.facebook.swift.service.oneway.OnewayTest@3891771e]" name="testOneWayThrow" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneWayThrow -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.oneway.OnewayTest@3891771e]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.oneway.OnewayTest@3891771e]" name="setupTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testOnewayCall()[pri:0, instance:com.facebook.swift.service.oneway.OnewayTest@3891771e]" name="testOnewayCall" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnewayCall -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.oneway.OnewayTest@3891771e]" name="tearDownTest" is-config="true" duration-ms="9" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.facebook.swift.service.oneway.OnewayTest@3891771e]" name="tearDownSuite" is-config="true" duration-ms="0" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.facebook.swift.service.oneway.OnewayTest -->
+      <class name="com.facebook.swift.client.TestThriftClientManager">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.facebook.swift.client.TestThriftClientManager@43bd930a]" name="setupSuite" is-config="true" duration-ms="0" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.client.TestThriftClientManager@43bd930a]" name="setupTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testUnresolvedRemoteAddress()[pri:0, instance:com.facebook.swift.client.TestThriftClientManager@43bd930a]" name="testUnresolvedRemoteAddress" duration-ms="0" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnresolvedRemoteAddress -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.client.TestThriftClientManager@43bd930a]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.facebook.swift.client.TestThriftClientManager@43bd930a]" name="tearDownSuite" is-config="true" duration-ms="1" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.facebook.swift.client.TestThriftClientManager -->
+      <class name="com.facebook.swift.service.unframed.UnframedTest">
+        <test-method status="PASS" signature="testUnframedAsyncMethod()[pri:0, instance:com.facebook.swift.service.unframed.UnframedTest@7403c468]" name="testUnframedAsyncMethod" duration-ms="118" started-at="2018-03-05T19:56:18Z" finished-at="2018-03-05T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnframedAsyncMethod -->
+        <test-method status="PASS" signature="testUnframedSyncMethod()[pri:0, instance:com.facebook.swift.service.unframed.UnframedTest@7403c468]" name="testUnframedSyncMethod" duration-ms="116" started-at="2018-03-05T19:56:18Z" finished-at="2018-03-05T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnframedSyncMethod -->
+      </class> <!-- com.facebook.swift.service.unframed.UnframedTest -->
+      <class name="com.facebook.swift.service.TestThriftServerConfig">
+        <test-method status="PASS" signature="testDefaults()[pri:0, instance:com.facebook.swift.service.TestThriftServerConfig@23fe1d71]" name="testDefaults" duration-ms="21" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaults -->
+        <test-method status="PASS" signature="testExplicitPropertyMappings()[pri:0, instance:com.facebook.swift.service.TestThriftServerConfig@23fe1d71]" name="testExplicitPropertyMappings" duration-ms="4" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExplicitPropertyMappings -->
+        <test-method status="PASS" signature="testGuiceInjection()[pri:0, instance:com.facebook.swift.service.TestThriftServerConfig@23fe1d71]" name="testGuiceInjection" duration-ms="11" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuiceInjection -->
+        <test-method status="PASS" signature="testWorkerExecutorConfiguration()[pri:0, instance:com.facebook.swift.service.TestThriftServerConfig@23fe1d71]" name="testWorkerExecutorConfiguration" duration-ms="44" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWorkerExecutorConfiguration -->
+        <test-method status="PASS" signature="testWorkerExecutorKeyConfiguration()[pri:0, instance:com.facebook.swift.service.TestThriftServerConfig@23fe1d71]" name="testWorkerExecutorKeyConfiguration" duration-ms="40" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWorkerExecutorKeyConfiguration -->
+        <test-method status="PASS" signature="testWorkerThreadsConfiguration()[pri:0, instance:com.facebook.swift.service.TestThriftServerConfig@23fe1d71]" name="testWorkerThreadsConfiguration" duration-ms="36" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWorkerThreadsConfiguration -->
+      </class> <!-- com.facebook.swift.service.TestThriftServerConfig -->
+      <class name="com.facebook.swift.service.protocol.TestClientProtocols">
+        <test-method status="PASS" signature="testBinaryProtocolClient()[pri:0, instance:com.facebook.swift.service.protocol.TestClientProtocols@365185bd]" name="testBinaryProtocolClient" duration-ms="16" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBinaryProtocolClient -->
+        <test-method status="PASS" signature="testCompactProtocolClient()[pri:0, instance:com.facebook.swift.service.protocol.TestClientProtocols@365185bd]" name="testCompactProtocolClient" duration-ms="19" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompactProtocolClient -->
+        <test-method status="PASS" signature="testUnmatchedProtocols()[pri:0, instance:com.facebook.swift.service.protocol.TestClientProtocols@365185bd]" name="testUnmatchedProtocols" duration-ms="12" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <exception class="org.apache.thrift.transport.TTransportException">
+            <message>
+              <![CDATA[Client was disconnected by server]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.thrift.transport.TTransportException: Client was disconnected by server
+	at com.facebook.nifty.client.AbstractClientChannel.channelDisconnected(AbstractClientChannel.java:325)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:120)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.cleanup(FrameDecoder.java:493)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at com.facebook.nifty.client.TimeoutHandler.handleUpstream(TimeoutHandler.java:58)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:360)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:93)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.thrift.transport.TTransportException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnmatchedProtocols -->
+      </class> <!-- com.facebook.swift.service.protocol.TestClientProtocols -->
+      <class name="com.facebook.swift.service.server.TestThriftServer">
+        <test-method status="PASS" signature="testThriftServerShutdown()[pri:0, instance:com.facebook.swift.service.server.TestThriftServer@22eeefeb]" name="testThriftServerShutdown" duration-ms="4" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftServerShutdown -->
+        <test-method status="PASS" signature="testThriftServerShutdownWithNoStartup()[pri:0, instance:com.facebook.swift.service.server.TestThriftServer@22eeefeb]" name="testThriftServerShutdownWithNoStartup" duration-ms="3" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftServerShutdownWithNoStartup -->
+      </class> <!-- com.facebook.swift.service.server.TestThriftServer -->
+      <class name="com.facebook.swift.service.metadata.TestThriftMethodMetadata">
+        <test-method status="PASS" signature="testAnnotatedExceptions()[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodMetadata@757942a1]" name="testAnnotatedExceptions" duration-ms="3" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnnotatedExceptions -->
+        <test-method status="PASS" signature="testInferredException()[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodMetadata@757942a1]" name="testInferredException" duration-ms="2" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInferredException -->
+        <test-method status="PASS" signature="testInferredExceptionWithRuntimeAndTException()[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodMetadata@757942a1]" name="testInferredExceptionWithRuntimeAndTException" duration-ms="2" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInferredExceptionWithRuntimeAndTException -->
+        <test-method status="PASS" signature="testInferredExceptionWithRuntimeException()[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodMetadata@757942a1]" name="testInferredExceptionWithRuntimeException" duration-ms="1" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInferredExceptionWithRuntimeException -->
+        <test-method status="PASS" signature="testInferredExceptionWithTException()[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodMetadata@757942a1]" name="testInferredExceptionWithTException" duration-ms="2" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInferredExceptionWithTException -->
+        <test-method status="PASS" signature="testUninferrableException()[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodMetadata@757942a1]" name="testUninferrableException" duration-ms="2" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[ThriftMethod.exception annotation value must be specified when more than one custom exception is thrown.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: ThriftMethod.exception annotation value must be specified when more than one custom exception is thrown.
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
+	at com.facebook.swift.service.metadata.ThriftMethodMetadata.buildExceptionMap(ThriftMethodMetadata.java:235)
+	at com.facebook.swift.service.metadata.ThriftMethodMetadata.<init>(ThriftMethodMetadata.java:166)
+	at com.facebook.swift.service.metadata.TestThriftMethodMetadata.assertExceptions(TestThriftMethodMetadata.java:79)
+	at com.facebook.swift.service.metadata.TestThriftMethodMetadata.testUninferrableException(TestThriftMethodMetadata.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUninferrableException -->
+        <test-method status="PASS" signature="testNoExceptions()[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodMetadata@757942a1]" name="testNoExceptions" duration-ms="0" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoExceptions -->
+      </class> <!-- com.facebook.swift.service.metadata.TestThriftMethodMetadata -->
+      <class name="com.facebook.swift.service.TestThriftTransportAttachObserver">
+        <test-method status="PASS" signature="testSwiftService()[pri:0, instance:com.facebook.swift.service.TestThriftTransportAttachObserver@289d1c02]" name="testSwiftService" duration-ms="8" started-at="2018-03-05T19:56:18Z" finished-at="2018-03-05T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwiftService -->
+        <test-method status="PASS" signature="testThriftService()[pri:0, instance:com.facebook.swift.service.TestThriftTransportAttachObserver@289d1c02]" name="testThriftService" duration-ms="6" started-at="2018-03-05T19:56:18Z" finished-at="2018-03-05T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftService -->
+      </class> <!-- com.facebook.swift.service.TestThriftTransportAttachObserver -->
+      <class name="com.facebook.swift.service.TestThriftSslService">
+        <test-method status="PASS" signature="testSwiftService()[pri:0, instance:com.facebook.swift.service.TestThriftSslService@1d371b2d]" name="testSwiftService" duration-ms="313" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwiftService -->
+        <test-method status="PASS" signature="testSwiftServicePlaintext()[pri:0, instance:com.facebook.swift.service.TestThriftSslService@1d371b2d]" name="testSwiftServicePlaintext" duration-ms="41" started-at="2018-03-05T19:56:18Z" finished-at="2018-03-05T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwiftServicePlaintext -->
+        <test-method status="PASS" signature="testThriftService()[pri:0, instance:com.facebook.swift.service.TestThriftSslService@1d371b2d]" name="testThriftService" duration-ms="38" started-at="2018-03-05T19:56:18Z" finished-at="2018-03-05T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftService -->
+        <test-method status="PASS" signature="testThriftServicePlaintext()[pri:0, instance:com.facebook.swift.service.TestThriftSslService@1d371b2d]" name="testThriftServicePlaintext" duration-ms="34" started-at="2018-03-05T19:56:18Z" finished-at="2018-03-05T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftServicePlaintext -->
+      </class> <!-- com.facebook.swift.service.TestThriftSslService -->
+      <class name="com.facebook.swift.service.exceptions.ExceptionTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="22" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupSuite" is-config="true" duration-ms="0" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="testMissingMethod()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testMissingMethod" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingMethod -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="3" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="16" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowExceptedUncheckedException()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowExceptedUncheckedException" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <exception class="com.facebook.swift.service.exceptions.ThriftUncheckedException">
+            <full-stacktrace>
+              <![CDATA[com.facebook.swift.service.exceptions.ThriftUncheckedException
+	at $wift.com.facebook.swift.service.exceptions.ThriftUncheckedExceptionCodec.read(Unknown Source)
+	at $wift.com.facebook.swift.service.exceptions.ThriftUncheckedExceptionCodec.read(Unknown Source)
+	at com.facebook.swift.codec.internal.TProtocolReader.readField(TProtocolReader.java:116)
+	at com.facebook.swift.service.ThriftMethodHandler.readResponse(ThriftMethodHandler.java:277)
+	at com.facebook.swift.service.ThriftMethodHandler.synchronousInvoke(ThriftMethodHandler.java:175)
+	at com.facebook.swift.service.ThriftMethodHandler.invoke(ThriftMethodHandler.java:131)
+	at com.facebook.swift.service.ThriftClientManager$ThriftInvocationHandler.invoke(ThriftClientManager.java:520)
+	at com.sun.proxy.$Proxy23.throwExpectedThriftUncheckedException(Unknown Source)
+	at com.facebook.swift.service.exceptions.ExceptionTest.testThrowExceptedUncheckedException(ExceptionTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.facebook.swift.service.exceptions.ThriftUncheckedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowExceptedUncheckedException -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="4" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="12" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowExceptionInEventHandlersCode()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowExceptionInEventHandlersCode" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <exception class="org.apache.thrift.TApplicationException">
+            <message>
+              <![CDATA[This is an exception for testing if event handler exceptions propagate to the client ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.thrift.TApplicationException: This is an exception for testing if event handler exceptions propagate to the client 
+	at org.apache.thrift.TApplicationException.read(TApplicationException.java:111)
+	at com.facebook.swift.service.ThriftMethodHandler.waitForResponse(ThriftMethodHandler.java:330)
+	at com.facebook.swift.service.ThriftMethodHandler.synchronousInvoke(ThriftMethodHandler.java:174)
+	at com.facebook.swift.service.ThriftMethodHandler.invoke(ThriftMethodHandler.java:131)
+	at com.facebook.swift.service.ThriftClientManager$ThriftInvocationHandler.invoke(ThriftClientManager.java:520)
+	at com.sun.proxy.$Proxy23.throwExceptionInEventHandlersCode(Unknown Source)
+	at com.facebook.swift.service.exceptions.ExceptionTest.testThrowExceptionInEventHandlersCode(ExceptionTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.thrift.TApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowExceptionInEventHandlersCode -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="10" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowExpectedCheckedException()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowExpectedCheckedException" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <exception class="com.facebook.swift.service.exceptions.ThriftCheckedException">
+            <full-stacktrace>
+              <![CDATA[com.facebook.swift.service.exceptions.ThriftCheckedException
+	at $wift.com.facebook.swift.service.exceptions.ThriftCheckedExceptionCodec.read(Unknown Source)
+	at $wift.com.facebook.swift.service.exceptions.ThriftCheckedExceptionCodec.read(Unknown Source)
+	at com.facebook.swift.codec.internal.TProtocolReader.readField(TProtocolReader.java:116)
+	at com.facebook.swift.service.ThriftMethodHandler.readResponse(ThriftMethodHandler.java:277)
+	at com.facebook.swift.service.ThriftMethodHandler.synchronousInvoke(ThriftMethodHandler.java:175)
+	at com.facebook.swift.service.ThriftMethodHandler.invoke(ThriftMethodHandler.java:131)
+	at com.facebook.swift.service.ThriftClientManager$ThriftInvocationHandler.invoke(ThriftClientManager.java:520)
+	at com.sun.proxy.$Proxy23.throwExpectedThriftCheckedException(Unknown Source)
+	at com.facebook.swift.service.exceptions.ExceptionTest.testThrowExpectedCheckedException(ExceptionTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.facebook.swift.service.exceptions.ThriftCheckedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowExpectedCheckedException -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="3" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="11" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowSubclassOfSubclassableException()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowSubclassOfSubclassableException" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowSubclassOfSubclassableException -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="9" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="12" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowSubclassableException()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowSubclassableException" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowSubclassableException -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="4" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="13" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowUnexpectedNonThriftCheckedException()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowUnexpectedNonThriftCheckedException" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <exception class="org.apache.thrift.TApplicationException">
+            <message>
+              <![CDATA[Internal error processing throwUnexpectedNonThriftCheckedException: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedNonThriftCheckedException: null
+	at org.apache.thrift.TApplicationException.read(TApplicationException.java:111)
+	at com.facebook.swift.service.ThriftMethodHandler.waitForResponse(ThriftMethodHandler.java:330)
+	at com.facebook.swift.service.ThriftMethodHandler.synchronousInvoke(ThriftMethodHandler.java:174)
+	at com.facebook.swift.service.ThriftMethodHandler.invoke(ThriftMethodHandler.java:131)
+	at com.facebook.swift.service.ThriftClientManager$ThriftInvocationHandler.invoke(ThriftClientManager.java:520)
+	at com.sun.proxy.$Proxy23.throwUnexpectedNonThriftCheckedException(Unknown Source)
+	at com.facebook.swift.service.exceptions.ExceptionTest.testThrowUnexpectedNonThriftCheckedException(ExceptionTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.thrift.TApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowUnexpectedNonThriftCheckedException -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="4" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="13" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowUnexpectedNonThriftUncheckedException()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowUnexpectedNonThriftUncheckedException" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <exception class="org.apache.thrift.TApplicationException">
+            <message>
+              <![CDATA[Internal error processing throwUnexpectedNonThriftUncheckedException: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedNonThriftUncheckedException: null
+	at org.apache.thrift.TApplicationException.read(TApplicationException.java:111)
+	at com.facebook.swift.service.ThriftMethodHandler.waitForResponse(ThriftMethodHandler.java:330)
+	at com.facebook.swift.service.ThriftMethodHandler.synchronousInvoke(ThriftMethodHandler.java:174)
+	at com.facebook.swift.service.ThriftMethodHandler.invoke(ThriftMethodHandler.java:131)
+	at com.facebook.swift.service.ThriftClientManager$ThriftInvocationHandler.invoke(ThriftClientManager.java:520)
+	at com.sun.proxy.$Proxy23.throwUnexpectedNonThriftUncheckedException(Unknown Source)
+	at com.facebook.swift.service.exceptions.ExceptionTest.testThrowUnexpectedNonThriftUncheckedException(ExceptionTest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.thrift.TApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowUnexpectedNonThriftUncheckedException -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="4" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="15" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowUnexpectedThriftUncheckedException()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowUnexpectedThriftUncheckedException" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <exception class="org.apache.thrift.TApplicationException">
+            <message>
+              <![CDATA[Internal error processing throwUnexpectedThriftUncheckedException: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedThriftUncheckedException: null
+	at org.apache.thrift.TApplicationException.read(TApplicationException.java:111)
+	at com.facebook.swift.service.ThriftMethodHandler.waitForResponse(ThriftMethodHandler.java:330)
+	at com.facebook.swift.service.ThriftMethodHandler.synchronousInvoke(ThriftMethodHandler.java:174)
+	at com.facebook.swift.service.ThriftMethodHandler.invoke(ThriftMethodHandler.java:131)
+	at com.facebook.swift.service.ThriftClientManager$ThriftInvocationHandler.invoke(ThriftClientManager.java:520)
+	at com.sun.proxy.$Proxy23.throwUnexpectedThriftUncheckedException(Unknown Source)
+	at com.facebook.swift.service.exceptions.ExceptionTest.testThrowUnexpectedThriftUncheckedException(ExceptionTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.thrift.TApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowUnexpectedThriftUncheckedException -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="setupTest" is-config="true" duration-ms="10" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testThrowWrongThriftException()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="testThrowWrongThriftException" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <exception class="org.apache.thrift.TApplicationException">
+            <message>
+              <![CDATA[Internal error processing throwWrongThriftException: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.thrift.TApplicationException: Internal error processing throwWrongThriftException: null
+	at org.apache.thrift.TApplicationException.read(TApplicationException.java:111)
+	at com.facebook.swift.service.ThriftMethodHandler.waitForResponse(ThriftMethodHandler.java:330)
+	at com.facebook.swift.service.ThriftMethodHandler.synchronousInvoke(ThriftMethodHandler.java:174)
+	at com.facebook.swift.service.ThriftMethodHandler.invoke(ThriftMethodHandler.java:131)
+	at com.facebook.swift.service.ThriftClientManager$ThriftInvocationHandler.invoke(ThriftClientManager.java:520)
+	at com.sun.proxy.$Proxy23.throwWrongThriftException(Unknown Source)
+	at com.facebook.swift.service.exceptions.ExceptionTest.testThrowWrongThriftException(ExceptionTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.thrift.TApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThrowWrongThriftException -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownTest" is-config="true" duration-ms="3" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.facebook.swift.service.exceptions.ExceptionTest@12c8a2c0]" name="tearDownSuite" is-config="true" duration-ms="0" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.facebook.swift.service.exceptions.ExceptionTest -->
+      <class name="com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupSuite" is-config="true" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupTest" is-config="true" duration-ms="16" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testExplicitParameterOrdering()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="testExplicitParameterOrdering" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExplicitParameterOrdering -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testExtraAndReorderedParameters()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="testExtraAndReorderedParameters" duration-ms="0" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtraAndReorderedParameters -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupTest" is-config="true" duration-ms="8" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testExtraParameter()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="testExtraParameter" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtraParameter -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testExtraStruct()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="testExtraStruct" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtraStruct -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testMissingAndReorderedParameters()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="testMissingAndReorderedParameters" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingAndReorderedParameters -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupTest" is-config="true" duration-ms="8" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testMissingInteger()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="testMissingInteger" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingInteger -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownTest" is-config="true" duration-ms="3" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupTest" is-config="true" duration-ms="9" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testMissingParameter()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="testMissingParameter" duration-ms="1" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingParameter -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownTest" is-config="true" duration-ms="7" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="setupTest" is-config="true" duration-ms="9" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testMissingStruct()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="testMissingStruct" duration-ms="2" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingStruct -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownTest" is-config="true" duration-ms="3" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest@51c8530f]" name="tearDownSuite" is-config="true" duration-ms="0" started-at="2018-03-05T19:56:16Z" finished-at="2018-03-05T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.facebook.swift.service.explicitidentifiers.ExplicitIdentifiersTest -->
+      <class name="com.facebook.swift.service.guice.TestThriftClientAndServerModules">
+        <test-method status="PASS" signature="testThriftClientAndServerModules()[pri:0, instance:com.facebook.swift.service.guice.TestThriftClientAndServerModules@17d0685f]" name="testThriftClientAndServerModules" duration-ms="190" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftClientAndServerModules -->
+        <test-method status="PASS" signature="testThriftClientWithConfiguration()[pri:0, instance:com.facebook.swift.service.guice.TestThriftClientAndServerModules@17d0685f]" name="testThriftClientWithConfiguration" duration-ms="12" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftClientWithConfiguration -->
+        <test-method status="PASS" signature="testThriftWithAnnotationBinding()[pri:0, instance:com.facebook.swift.service.guice.TestThriftClientAndServerModules@17d0685f]" name="testThriftWithAnnotationBinding" duration-ms="51" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftWithAnnotationBinding -->
+        <test-method status="PASS" signature="testThriftWithKeyBinding()[pri:0, instance:com.facebook.swift.service.guice.TestThriftClientAndServerModules@17d0685f]" name="testThriftWithKeyBinding" duration-ms="47" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftWithKeyBinding -->
+      </class> <!-- com.facebook.swift.service.guice.TestThriftClientAndServerModules -->
+      <class name="com.facebook.swift.service.metadata.TestThriftMethodLegacyIds">
+        <test-method status="PASS" signature="testInvalids([Ljava.lang.reflect.Method;)[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodLegacyIds@78ac1102]" name="testInvalids" duration-ms="1" started-at="2018-03-05T19:56:17Z" data-provider="getTestCasesWithInvalids" finished-at="2018-03-05T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.reflect.Method;@4a0df195]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[isLegacyId should only be specified on fields with negative IDs]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: isLegacyId should only be specified on fields with negative IDs
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.facebook.swift.codec.metadata.ThriftFieldMetadata.<init>(ThriftFieldMetadata.java:87)
+	at com.facebook.swift.service.metadata.ThriftMethodMetadata.<init>(ThriftMethodMetadata.java:160)
+	at com.facebook.swift.service.metadata.TestThriftMethodLegacyIds.testInvalids(TestThriftMethodLegacyIds.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalids -->
+        <test-method status="PASS" signature="testInvalids([Ljava.lang.reflect.Method;)[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodLegacyIds@78ac1102]" name="testInvalids" duration-ms="1" started-at="2018-03-05T19:56:17Z" data-provider="getTestCasesWithInvalids" finished-at="2018-03-05T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.reflect.Method;@9255c05]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[isLegacyId should only be specified on fields with negative IDs]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: isLegacyId should only be specified on fields with negative IDs
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.facebook.swift.codec.metadata.ThriftFieldMetadata.<init>(ThriftFieldMetadata.java:87)
+	at com.facebook.swift.service.metadata.ThriftMethodMetadata.<init>(ThriftMethodMetadata.java:160)
+	at com.facebook.swift.service.metadata.TestThriftMethodLegacyIds.testInvalids(TestThriftMethodLegacyIds.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalids -->
+        <test-method status="PASS" signature="testInvalids([Ljava.lang.reflect.Method;)[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodLegacyIds@78ac1102]" name="testInvalids" duration-ms="1" started-at="2018-03-05T19:56:17Z" data-provider="getTestCasesWithInvalids" finished-at="2018-03-05T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.reflect.Method;@78830d9a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[isLegacyId must be specified on fields with negative IDs]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: isLegacyId must be specified on fields with negative IDs
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.facebook.swift.codec.metadata.ThriftFieldMetadata.<init>(ThriftFieldMetadata.java:89)
+	at com.facebook.swift.service.metadata.ThriftMethodMetadata.<init>(ThriftMethodMetadata.java:160)
+	at com.facebook.swift.service.metadata.TestThriftMethodLegacyIds.testInvalids(TestThriftMethodLegacyIds.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalids -->
+        <test-method status="PASS" signature="testInvalids([Ljava.lang.reflect.Method;)[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodLegacyIds@78ac1102]" name="testInvalids" duration-ms="1" started-at="2018-03-05T19:56:17Z" data-provider="getTestCasesWithInvalids" finished-at="2018-03-05T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.reflect.Method;@7f829c76]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[isLegacyId must be specified on fields with negative IDs]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: isLegacyId must be specified on fields with negative IDs
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.facebook.swift.codec.metadata.ThriftFieldMetadata.<init>(ThriftFieldMetadata.java:89)
+	at com.facebook.swift.service.metadata.ThriftMethodMetadata.<init>(ThriftMethodMetadata.java:160)
+	at com.facebook.swift.service.metadata.TestThriftMethodLegacyIds.testInvalids(TestThriftMethodLegacyIds.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalids -->
+        <test-method status="PASS" signature="testLegacyFieldIds([Ljava.lang.reflect.Method;)[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodLegacyIds@78ac1102]" name="testLegacyFieldIds" duration-ms="2" started-at="2018-03-05T19:56:17Z" data-provider="getTestCasesWithLegacyFieldIds" finished-at="2018-03-05T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.reflect.Method;@7c3ebc6b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacyFieldIds -->
+        <test-method status="PASS" signature="testNonLegacyFieldIds([Ljava.lang.reflect.Method;)[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodLegacyIds@78ac1102]" name="testNonLegacyFieldIds" duration-ms="1" started-at="2018-03-05T19:56:17Z" data-provider="getTestCasesWithNonLegacyFieldIds" finished-at="2018-03-05T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.reflect.Method;@1931d99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonLegacyFieldIds -->
+        <test-method status="PASS" signature="testNonLegacyFieldIds([Ljava.lang.reflect.Method;)[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodLegacyIds@78ac1102]" name="testNonLegacyFieldIds" duration-ms="0" started-at="2018-03-05T19:56:17Z" data-provider="getTestCasesWithNonLegacyFieldIds" finished-at="2018-03-05T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.reflect.Method;@6a9950f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonLegacyFieldIds -->
+        <test-method status="PASS" signature="testNonLegacyFieldIds([Ljava.lang.reflect.Method;)[pri:0, instance:com.facebook.swift.service.metadata.TestThriftMethodLegacyIds@78ac1102]" name="testNonLegacyFieldIds" duration-ms="0" started-at="2018-03-05T19:56:17Z" data-provider="getTestCasesWithNonLegacyFieldIds" finished-at="2018-03-05T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.reflect.Method;@7ad54c55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonLegacyFieldIds -->
+      </class> <!-- com.facebook.swift.service.metadata.TestThriftMethodLegacyIds -->
+      <class name="com.facebook.swift.service.TestThriftService">
+        <test-method status="PASS" signature="testConflictingServices()[pri:0, instance:com.facebook.swift.service.TestThriftService@75881071]" name="testConflictingServices" duration-ms="5" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Multiple @ThriftMethod-annotated methods named 'Log' found in the given services]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Multiple @ThriftMethod-annotated methods named 'Log' found in the given services
+	at com.facebook.swift.service.ThriftServiceProcessor.<init>(ThriftServiceProcessor.java:83)
+	at com.facebook.swift.service.ThriftServiceProcessor.<init>(ThriftServiceProcessor.java:67)
+	at com.facebook.swift.service.TestThriftService.testConflictingServices(TestThriftService.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConflictingServices -->
+        <test-method status="PASS" signature="testSwiftEventHandlersWithNiftyProcessor()[pri:0, instance:com.facebook.swift.service.TestThriftService@75881071]" name="testSwiftEventHandlersWithNiftyProcessor" duration-ms="26" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwiftEventHandlersWithNiftyProcessor -->
+        <test-method status="PASS" signature="testSwiftEventHandlersWithTProcessor()[pri:0, instance:com.facebook.swift.service.TestThriftService@75881071]" name="testSwiftEventHandlersWithTProcessor" duration-ms="30" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwiftEventHandlersWithTProcessor -->
+        <test-method status="PASS" signature="testSwiftService()[pri:0, instance:com.facebook.swift.service.TestThriftService@75881071]" name="testSwiftService" duration-ms="19" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwiftService -->
+        <test-method status="PASS" signature="testThriftService()[pri:0, instance:com.facebook.swift.service.TestThriftService@75881071]" name="testThriftService" duration-ms="17" started-at="2018-03-05T19:56:17Z" finished-at="2018-03-05T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftService -->
+      </class> <!-- com.facebook.swift.service.TestThriftService -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

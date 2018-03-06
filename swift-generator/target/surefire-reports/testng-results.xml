@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1615" started-at="2018-03-05T19:27:29Z" finished-at="2018-03-05T19:27:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1615" started-at="2018-03-05T19:27:29Z" finished-at="2018-03-05T19:27:30Z">
+      <class name="com.facebook.swift.generator.SwiftGeneratorTest">
+        <test-method status="PASS" signature="ensureRootFolder()[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="ensureRootFolder" is-config="true" duration-ms="8" started-at="2018-03-05T19:27:29Z" finished-at="2018-03-05T19:27:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureRootFolder -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="588" started-at="2018-03-05T19:27:29Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@30b43d5d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="94" started-at="2018-03-05T19:27:29Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@6b89dfac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="57" started-at="2018-03-05T19:27:29Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@17287617]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="49" started-at="2018-03-05T19:27:29Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@5589b8ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="382" started-at="2018-03-05T19:27:29Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@44c639d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="72" started-at="2018-03-05T19:27:30Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@6197fa5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="31" started-at="2018-03-05T19:27:30Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@35dba0b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="289" started-at="2018-03-05T19:27:30Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@2d8d2832]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method status="PASS" signature="testGenerate(com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths)[pri:0, instance:com.facebook.swift.generator.SwiftGeneratorTest@58ceff1]" name="testGenerate" duration-ms="23" started-at="2018-03-05T19:27:30Z" data-provider="thriftProvider" finished-at="2018-03-05T19:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.facebook.swift.generator.SwiftGeneratorTest$GenerationPaths@58f0acce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+      </class> <!-- com.facebook.swift.generator.SwiftGeneratorTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

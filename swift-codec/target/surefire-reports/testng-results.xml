@@ -1,0 +1,1787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="195" passed="195">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1435" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:03Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1435" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:03Z">
+      <class name="com.facebook.swift.codec.metadata.TestReflectionHelper">
+        <test-method status="PASS" signature="testExtractParameterNamesNoAnnotations()[pri:0, instance:com.facebook.swift.codec.metadata.TestReflectionHelper@210366b4]" name="testExtractParameterNamesNoAnnotations" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractParameterNamesNoAnnotations -->
+        <test-method status="PASS" signature="testExtractParameterNamesThriftFieldAnnotation()[pri:0, instance:com.facebook.swift.codec.metadata.TestReflectionHelper@210366b4]" name="testExtractParameterNamesThriftFieldAnnotation" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractParameterNamesThriftFieldAnnotation -->
+      </class> <!-- com.facebook.swift.codec.metadata.TestReflectionHelper -->
+      <class name="com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testArrays()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testArrays" duration-ms="8" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrays -->
+        <test-method status="PASS" signature="testArraysManual()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testArraysManual" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArraysManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBeanDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testBeanDerivedFromGeneric" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeanDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBeanGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testBeanGeneric" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeanGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBuilder()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testBuilder" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuilder -->
+        <test-method status="PASS" signature="testCoRecursive()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testCoRecursive" duration-ms="5" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursive -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCoRecursiveStartingAtHelper()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testCoRecursiveStartingAtHelper" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursiveStartingAtHelper -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCoRecursiveTree()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testCoRecursiveTree" duration-ms="5" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursiveTree -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDefaultCoercion()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testDefaultCoercion" duration-ms="7" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultCoercion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testFieldDerivedFromGeneric" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testFieldGeneric" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGenericFromBuilder()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testGenericFromBuilder" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenericFromBuilder -->
+        <test-method status="PASS" signature="testImmutableDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testImmutableDerivedFromGeneric" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImmutableDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testImmutableGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testImmutableGeneric" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImmutableGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testIsSetBean()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testIsSetBean" duration-ms="10" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSetBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMatchByJavaNameWithThriftNameOverride()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testMatchByJavaNameWithThriftNameOverride" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchByJavaNameWithThriftNameOverride -->
+        <test-method status="PASS" signature="testOneOfEverythingField()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testOneOfEverythingField" duration-ms="68" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingField -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneOfEverythingFieldEmpty()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testOneOfEverythingFieldEmpty" duration-ms="72" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingFieldEmpty -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneOfEverythingFieldManual()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testOneOfEverythingFieldManual" duration-ms="19" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingFieldManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveDefaultUnion()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testRecursiveDefaultUnion" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveDefaultUnion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithIdlAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testRecursiveStructWithIdlAnnotation" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithIdlAnnotation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithSwiftAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testRecursiveStructWithSwiftAnnotation" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithSwiftAnnotation -->
+        <test-method status="PASS" signature="testRecursiveStructWithoutRecursiveAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testRecursiveStructWithoutRecursiveAnnotation" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Circular references must be qualified with 'isRecursive' on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation->com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Circular references must be qualified with 'isRecursive' on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation->com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.<init>(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithoutRecursiveAnnotation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveUnion()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testRecursiveUnion" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveUnion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructBean()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testStructBean" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructConstructor()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testStructConstructor" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructConstructor -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructFields()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testStructFields" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructFields -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructFieldsManual()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testStructFieldsManual" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructFieldsManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructMethod()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testStructMethod" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaListElementTypes()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testStructWithRecursionViaListElementTypes" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaListElementTypes -->
+        <test-method status="PASS" signature="testStructWithRecursionViaMapKeyAndValueTypes()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testStructWithRecursionViaMapKeyAndValueTypes" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaMapKeyAndValueTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaNestedListElementTypes()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testStructWithRecursionViaNestedListElementTypes" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaNestedListElementTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionBean()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testUnionBean" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionConstructor()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testUnionConstructor" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionConstructor -->
+        <test-method status="PASS" signature="testUnionConstructorDuplicateTypes()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testUnionConstructorDuplicateTypes" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionConstructorDuplicateTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionFields()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testUnionFields" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionFields -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionFieldsManual()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6]" name="testUnionFieldsManual" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionFieldsManual -->
+      </class> <!-- com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory -->
+      <class name="com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory">
+        <test-method status="PASS" signature="testArrays()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testArrays" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrays -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testArraysManual()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testArraysManual" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArraysManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBeanDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testBeanDerivedFromGeneric" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeanDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBeanGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testBeanGeneric" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeanGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBuilder()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testBuilder" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuilder -->
+        <test-method status="PASS" signature="testCoRecursive()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testCoRecursive" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursive -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCoRecursiveTree()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testCoRecursiveTree" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursiveTree -->
+        <test-method status="PASS" signature="testCoRecursiveStartingAtHelper()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testCoRecursiveStartingAtHelper" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursiveStartingAtHelper -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDefaultCoercion()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testDefaultCoercion" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultCoercion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testFieldDerivedFromGeneric" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testFieldGeneric" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGenericFromBuilder()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testGenericFromBuilder" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenericFromBuilder -->
+        <test-method status="PASS" signature="testImmutableDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testImmutableDerivedFromGeneric" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImmutableDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testImmutableGeneric()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testImmutableGeneric" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImmutableGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testIsSetBean()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testIsSetBean" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSetBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMatchByJavaNameWithThriftNameOverride()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testMatchByJavaNameWithThriftNameOverride" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchByJavaNameWithThriftNameOverride -->
+        <test-method status="PASS" signature="testOneOfEverythingField()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testOneOfEverythingField" duration-ms="11" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingField -->
+        <test-method status="PASS" signature="testOneOfEverythingFieldEmpty()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testOneOfEverythingFieldEmpty" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingFieldEmpty -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneOfEverythingFieldManual()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testOneOfEverythingFieldManual" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingFieldManual -->
+        <test-method status="PASS" signature="testRecursiveDefaultUnion()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testRecursiveDefaultUnion" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveDefaultUnion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithIdlAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testRecursiveStructWithIdlAnnotation" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithIdlAnnotation -->
+        <test-method status="PASS" signature="testRecursiveStructWithSwiftAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testRecursiveStructWithSwiftAnnotation" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithSwiftAnnotation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithoutRecursiveAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testRecursiveStructWithoutRecursiveAnnotation" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Circular references must be qualified with 'isRecursive' on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation->com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Circular references must be qualified with 'isRecursive' on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation->com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.<init>(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithoutRecursiveAnnotation -->
+        <test-method status="PASS" signature="testRecursiveUnion()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testRecursiveUnion" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveUnion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructBean()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testStructBean" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructConstructor()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testStructConstructor" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructConstructor -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructFieldsManual()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testStructFieldsManual" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructFieldsManual -->
+        <test-method status="PASS" signature="testStructFields()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testStructFields" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructFields -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructMethod()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testStructMethod" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaListElementTypes()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testStructWithRecursionViaListElementTypes" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaListElementTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaNestedListElementTypes()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testStructWithRecursionViaNestedListElementTypes" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaNestedListElementTypes -->
+        <test-method status="PASS" signature="testStructWithRecursionViaMapKeyAndValueTypes()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testStructWithRecursionViaMapKeyAndValueTypes" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaMapKeyAndValueTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionBean()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testUnionBean" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionBean -->
+        <test-method status="PASS" signature="testUnionConstructor()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testUnionConstructor" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionConstructor -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionConstructorDuplicateTypes()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testUnionConstructorDuplicateTypes" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionConstructorDuplicateTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionFields()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testUnionFields" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionFields -->
+        <test-method status="PASS" signature="testUnionFieldsManual()[pri:0, instance:com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a]" name="testUnionFieldsManual" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionFieldsManual -->
+      </class> <!-- com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory -->
+      <class name="com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder">
+        <test-method status="PASS" signature="testGenericBuilder()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testGenericBuilder" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenericBuilder -->
+        <test-method status="PASS" signature="testGenericBuilderForNonGenericStruct()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testGenericBuilderForNonGenericStruct" duration-ms="0" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <exception class="com.facebook.swift.codec.metadata.MetadataErrorException">
+            <message>
+              <![CDATA[Error: Metadata extraction encountered 1 errors and 0 warnings]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.facebook.swift.codec.metadata.MetadataErrorException: Error: Metadata extraction encountered 1 errors and 0 warnings
+	at com.facebook.swift.codec.metadata.MetadataErrors.throwIfHasErrors(MetadataErrors.java:76)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.build(ThriftStructMetadataBuilder.java:118)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testGenericBuilderForNonGenericStruct(TestThriftStructMetadataBuilder.java:264)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+	Suppressed: com.facebook.swift.codec.metadata.MetadataErrorException: Error: Builder class 'com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder$NonGenericStruct$GenericBuilder' may only be generic if the type it builds ('com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder$NonGenericStruct') is also generic
+		at com.facebook.swift.codec.metadata.MetadataErrors.addError(MetadataErrors.java:95)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.extractBuilderType(AbstractThriftMetadataBuilder.java:161)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.<init>(AbstractThriftMetadataBuilder.java:106)
+		at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.<init>(ThriftStructMetadataBuilder.java:45)
+		at com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testGenericBuilderForNonGenericStruct(TestThriftStructMetadataBuilder.java:263)
+		... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.facebook.swift.codec.metadata.MetadataErrorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenericBuilderForNonGenericStruct -->
+        <test-method status="PASS" signature="testMergeableRequiredness()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testMergeableRequiredness" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeableRequiredness -->
+        <test-method status="PASS" signature="testMulitpleRequiredness()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testMulitpleRequiredness" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulitpleRequiredness -->
+        <test-method status="PASS" signature="testMultipleIds()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testMultipleIds" duration-ms="0" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleIds -->
+        <test-method status="PASS" signature="testMultipleNames()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testMultipleNames" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleNames -->
+        <test-method status="PASS" signature="testNoId()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testNoId" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoId -->
+        <test-method status="PASS" signature="testMultipleTypes()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testMultipleTypes" duration-ms="0" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleTypes -->
+        <test-method status="PASS" signature="testNonFinalStructsOk()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testNonFinalStructsOk" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonFinalStructsOk -->
+        <test-method status="PASS" signature="testUnsupportedType()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0]" name="testUnsupportedType" duration-ms="0" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnsupportedType -->
+      </class> <!-- com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder -->
+      <class name="com.facebook.swift.codec.TestThriftCodecManager">
+        <test-method status="PASS" signature="testAddStructCodec()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="testAddStructCodec" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStructCodec -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddUnionCodec()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="testAddUnionCodec" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUnionCodec -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBasicThriftTypes()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="testBasicThriftTypes" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicThriftTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBasicTypes()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="testBasicTypes" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicTypes -->
+        <test-method status="PASS" signature="testCoercedCollection()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="testCoercedCollection" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoercedCollection -->
+        <test-method status="PASS" signature="testCollectionThriftTypes()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="testCollectionThriftTypes" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectionThriftTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEnum()[pri:0, instance:com.facebook.swift.codec.TestThriftCodecManager@335eadca]" name="testEnum" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnum -->
+      </class> <!-- com.facebook.swift.codec.TestThriftCodecManager -->
+      <class name="com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder">
+        <test-method status="PASS" signature="testMultipleIds()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2]" name="testMultipleIds" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleIds -->
+        <test-method status="PASS" signature="testMultipleNames()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2]" name="testMultipleNames" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleNames -->
+        <test-method status="PASS" signature="testMultipleTypes()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2]" name="testMultipleTypes" duration-ms="0" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleTypes -->
+        <test-method status="PASS" signature="testNoId()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2]" name="testNoId" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoId -->
+        <test-method status="PASS" signature="testUnsupportedType()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2]" name="testUnsupportedType" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnsupportedType -->
+        <test-method status="PASS" signature="testNonFinalUnionOk()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2]" name="testNonFinalUnionOk" duration-ms="0" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonFinalUnionOk -->
+      </class> <!-- com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder -->
+      <class name="com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="4" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testArrays()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testArrays" duration-ms="166" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrays -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testArraysManual()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testArraysManual" duration-ms="7" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArraysManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBeanDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testBeanDerivedFromGeneric" duration-ms="13" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeanDerivedFromGeneric -->
+        <test-method status="PASS" signature="testBeanGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testBeanGeneric" duration-ms="10" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeanGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBuilder()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testBuilder" duration-ms="10" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuilder -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCoRecursive()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testCoRecursive" duration-ms="16" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursive -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCoRecursiveStartingAtHelper()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testCoRecursiveStartingAtHelper" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursiveStartingAtHelper -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCoRecursiveTree()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testCoRecursiveTree" duration-ms="16" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursiveTree -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDefaultCoercion()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testDefaultCoercion" duration-ms="20" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultCoercion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testFieldDerivedFromGeneric" duration-ms="5" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testFieldGeneric" duration-ms="6" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldGeneric -->
+        <test-method status="PASS" signature="testGenericFromBuilder()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testGenericFromBuilder" duration-ms="9" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenericFromBuilder -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testImmutableDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testImmutableDerivedFromGeneric" duration-ms="7" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImmutableDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testImmutableGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testImmutableGeneric" duration-ms="4" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImmutableGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testIsSetBean()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testIsSetBean" duration-ms="24" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSetBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMatchByJavaNameWithThriftNameOverride()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testMatchByJavaNameWithThriftNameOverride" duration-ms="8" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchByJavaNameWithThriftNameOverride -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneOfEverythingField()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testOneOfEverythingField" duration-ms="115" started-at="2018-03-05T19:27:01Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingField -->
+        <test-method status="PASS" signature="testOneOfEverythingFieldEmpty()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testOneOfEverythingFieldEmpty" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingFieldEmpty -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneOfEverythingFieldManual()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testOneOfEverythingFieldManual" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingFieldManual -->
+        <test-method status="PASS" signature="testRecursiveDefaultUnion()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testRecursiveDefaultUnion" duration-ms="5" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveDefaultUnion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithIdlAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testRecursiveStructWithIdlAnnotation" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithIdlAnnotation -->
+        <test-method status="PASS" signature="testRecursiveStructWithSwiftAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testRecursiveStructWithSwiftAnnotation" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithSwiftAnnotation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithoutRecursiveAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testRecursiveStructWithoutRecursiveAnnotation" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Circular references must be qualified with 'isRecursive' on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation->com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Circular references must be qualified with 'isRecursive' on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation->com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.<init>(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithoutRecursiveAnnotation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveUnion()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testRecursiveUnion" duration-ms="5" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveUnion -->
+        <test-method status="PASS" signature="testStructBean()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testStructBean" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructConstructor()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testStructConstructor" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructConstructor -->
+        <test-method status="PASS" signature="testStructFields()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testStructFields" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructFields -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructFieldsManual()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testStructFieldsManual" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructFieldsManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructMethod()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testStructMethod" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaListElementTypes()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testStructWithRecursionViaListElementTypes" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaListElementTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaMapKeyAndValueTypes()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testStructWithRecursionViaMapKeyAndValueTypes" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaMapKeyAndValueTypes -->
+        <test-method status="PASS" signature="testStructWithRecursionViaNestedListElementTypes()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testStructWithRecursionViaNestedListElementTypes" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaNestedListElementTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionBean()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testUnionBean" duration-ms="5" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionConstructor()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testUnionConstructor" duration-ms="5" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionConstructor -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionConstructorDuplicateTypes()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testUnionConstructorDuplicateTypes" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionConstructorDuplicateTypes -->
+        <test-method status="PASS" signature="testUnionFields()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testUnionFields" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionFields -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionFieldsManual()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79]" name="testUnionFieldsManual" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionFieldsManual -->
+      </class> <!-- com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory -->
+      <class name="com.facebook.swift.codec.guice.TestThriftCodecModule">
+        <test-method status="PASS" signature="testThriftClientAndServerModules()[pri:0, instance:com.facebook.swift.codec.guice.TestThriftCodecModule@67784306]" name="testThriftClientAndServerModules" duration-ms="111" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThriftClientAndServerModules -->
+      </class> <!-- com.facebook.swift.codec.guice.TestThriftCodecModule -->
+      <class name="com.facebook.swift.codec.metadata.TestThriftStructMetadata">
+        <test-method status="PASS" signature="testBean()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testBean" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBean -->
+        <test-method status="PASS" signature="testBuilder()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testBuilder" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuilder -->
+        <test-method status="PASS" signature="testConstructor()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testConstructor" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructor -->
+        <test-method status="PASS" signature="testExceptionWithIdlAnnotationsMap()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testExceptionWithIdlAnnotationsMap" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExceptionWithIdlAnnotationsMap -->
+        <test-method status="PASS" signature="testField()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testField" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testField -->
+        <test-method status="PASS" signature="testFieldWithConflictingIdlAnnotationMap()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testFieldWithConflictingIdlAnnotationMap" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <exception class="com.facebook.swift.codec.metadata.MetadataErrorException">
+            <message>
+              <![CDATA[Error: Metadata extraction encountered 1 errors and 0 warnings]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.facebook.swift.codec.metadata.MetadataErrorException: Error: Metadata extraction encountered 1 errors and 0 warnings
+	at com.facebook.swift.codec.metadata.MetadataErrors.throwIfHasErrors(MetadataErrors.java:76)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.buildMetadata(TestThriftStructMetadata.java:259)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testMetadataBuild(TestThriftStructMetadata.java:229)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testStructMetadataBuild(TestThriftStructMetadata.java:202)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testFieldWithConflictingIdlAnnotationMap(TestThriftStructMetadata.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+	Suppressed: com.facebook.swift.codec.metadata.MetadataErrorException: Error: Thrift class 'BeanWIthConflictingIdlAnnotationMapsForField' field '2' has conflicting IDL annotation maps
+		at com.facebook.swift.codec.metadata.MetadataErrors.addError(MetadataErrors.java:95)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.extractFieldIdlAnnotations(AbstractThriftMetadataBuilder.java:622)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:530)
+		at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.<init>(ThriftStructMetadataBuilder.java:51)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.facebook.swift.codec.metadata.TestThriftStructMetadata.buildMetadata(TestThriftStructMetadata.java:255)
+		... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.facebook.swift.codec.metadata.MetadataErrorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldWithConflictingIdlAnnotationMap -->
+        <test-method status="PASS" signature="testFieldWithMatchingIdlAnnotationMaps()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testFieldWithMatchingIdlAnnotationMaps" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldWithMatchingIdlAnnotationMaps -->
+        <test-method status="PASS" signature="testFieldWithOneIdlAnnotationMap()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testFieldWithOneIdlAnnotationMap" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldWithOneIdlAnnotationMap -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testMethod" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testStructWithIdlAnnotationsMap()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testStructWithIdlAnnotationsMap" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithIdlAnnotationsMap -->
+        <test-method status="PASS" signature="testUnionWithIdlAnnotationsMap()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b]" name="testUnionWithIdlAnnotationsMap" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionWithIdlAnnotationsMap -->
+      </class> <!-- com.facebook.swift.codec.metadata.TestThriftStructMetadata -->
+      <class name="com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testArrays()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testArrays" duration-ms="14" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrays -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testArraysManual()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testArraysManual" duration-ms="8" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArraysManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBeanDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testBeanDerivedFromGeneric" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeanDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBeanGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testBeanGeneric" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeanGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBuilder()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testBuilder" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuilder -->
+        <test-method status="PASS" signature="testCoRecursive()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testCoRecursive" duration-ms="6" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursive -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCoRecursiveStartingAtHelper()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testCoRecursiveStartingAtHelper" duration-ms="6" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursiveStartingAtHelper -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCoRecursiveTree()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testCoRecursiveTree" duration-ms="6" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoRecursiveTree -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDefaultCoercion()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testDefaultCoercion" duration-ms="9" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultCoercion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testFieldDerivedFromGeneric" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testFieldGeneric" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGenericFromBuilder()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testGenericFromBuilder" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenericFromBuilder -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testImmutableDerivedFromGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testImmutableDerivedFromGeneric" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImmutableDerivedFromGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testImmutableGeneric()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testImmutableGeneric" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImmutableGeneric -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testIsSetBean()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testIsSetBean" duration-ms="14" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSetBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMatchByJavaNameWithThriftNameOverride()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testMatchByJavaNameWithThriftNameOverride" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchByJavaNameWithThriftNameOverride -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneOfEverythingField()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testOneOfEverythingField" duration-ms="104" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingField -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="12" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneOfEverythingFieldEmpty()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testOneOfEverythingFieldEmpty" duration-ms="84" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingFieldEmpty -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneOfEverythingFieldManual()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testOneOfEverythingFieldManual" duration-ms="18" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneOfEverythingFieldManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveDefaultUnion()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testRecursiveDefaultUnion" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveDefaultUnion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithIdlAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testRecursiveStructWithIdlAnnotation" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithIdlAnnotation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithSwiftAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testRecursiveStructWithSwiftAnnotation" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithSwiftAnnotation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveStructWithoutRecursiveAnnotation()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testRecursiveStructWithoutRecursiveAnnotation" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Circular references must be qualified with 'isRecursive' on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation->com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Circular references must be qualified with 'isRecursive' on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation->com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.<init>(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveStructWithoutRecursiveAnnotation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRecursiveUnion()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testRecursiveUnion" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecursiveUnion -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructBean()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testStructBean" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructConstructor()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testStructConstructor" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructConstructor -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructFields()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testStructFields" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructFields -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructFieldsManual()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testStructFieldsManual" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructFieldsManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructMethod()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testStructMethod" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaListElementTypes()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testStructWithRecursionViaListElementTypes" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaListElementTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaMapKeyAndValueTypes()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testStructWithRecursionViaMapKeyAndValueTypes" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaMapKeyAndValueTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStructWithRecursionViaNestedListElementTypes()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testStructWithRecursionViaNestedListElementTypes" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStructWithRecursionViaNestedListElementTypes -->
+        <test-method status="PASS" signature="testUnionBean()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testUnionBean" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionBean -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionConstructor()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testUnionConstructor" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionConstructor -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionConstructorDuplicateTypes()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testUnionConstructorDuplicateTypes" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionConstructorDuplicateTypes -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUnionFields()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testUnionFields" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionFields -->
+        <test-method status="PASS" signature="testUnionFieldsManual()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="testUnionFieldsManual" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnionFieldsManual -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory -->
+      <class name="com.facebook.swift.codec.metadata.TestLegacyFieldIds">
+        <test-method status="PASS" signature="testGetThriftFieldIsLegacyId()[pri:0, instance:com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3]" name="testGetThriftFieldIsLegacyId" duration-ms="1" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetThriftFieldIsLegacyId -->
+        <test-method status="PASS" signature="testLegacyIdCorrectlyAnnotated()[pri:0, instance:com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3]" name="testLegacyIdCorrectlyAnnotated" duration-ms="4" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacyIdCorrectlyAnnotated -->
+        <test-method status="PASS" signature="testLegacyIdCorrectlyAnnotatedWhitebox()[pri:0, instance:com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3]" name="testLegacyIdCorrectlyAnnotatedWhitebox" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacyIdCorrectlyAnnotatedWhitebox -->
+        <test-method status="PASS" signature="testLegacyIdIncorrect()[pri:0, instance:com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3]" name="testLegacyIdIncorrect" duration-ms="3" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacyIdIncorrect -->
+        <test-method status="PASS" signature="testLegacyIdOnUnion()[pri:0, instance:com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3]" name="testLegacyIdOnUnion" duration-ms="2" started-at="2018-03-05T19:27:02Z" finished-at="2018-03-05T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacyIdOnUnion -->
+      </class> <!-- com.facebook.swift.codec.metadata.TestLegacyFieldIds -->
+      <class name="com.facebook.swift.codec.metadata.TestThriftUnionMetadata">
+        <test-method status="PASS" signature="testBean()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17]" name="testBean" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBean -->
+        <test-method status="PASS" signature="testBuilder()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17]" name="testBuilder" duration-ms="2" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuilder -->
+        <test-method status="PASS" signature="testConstructor()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17]" name="testConstructor" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructor -->
+        <test-method status="PASS" signature="testField()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17]" name="testField" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testField -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17]" name="testMethod" duration-ms="1" started-at="2018-03-05T19:27:03Z" finished-at="2018-03-05T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.facebook.swift.codec.metadata.TestThriftUnionMetadata -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

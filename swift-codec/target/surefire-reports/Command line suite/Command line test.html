@@ -1,0 +1,1460 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>195/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 05 19:27:01 UTC 2018</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1435 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.facebook.swift.codec.TestThriftCodecManager.testAddStructCodec()'><b>testAddStructCodec</b><br>Test class: com.facebook.swift.codec.TestThriftCodecManager</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.TestThriftCodecManager@335eadca</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.TestThriftCodecManager.testAddUnionCodec()'><b>testAddUnionCodec</b><br>Test class: com.facebook.swift.codec.TestThriftCodecManager</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.TestThriftCodecManager@335eadca</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testArrays()'><b>testArrays</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testArrays()'><b>testArrays</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testArrays()'><b>testArrays</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testArrays()'><b>testArrays</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testArraysManual()'><b>testArraysManual</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testArraysManual()'><b>testArraysManual</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testArraysManual()'><b>testArraysManual</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testArraysManual()'><b>testArraysManual</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.TestThriftCodecManager.testBasicThriftTypes()'><b>testBasicThriftTypes</b><br>Test class: com.facebook.swift.codec.TestThriftCodecManager</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.TestThriftCodecManager@335eadca</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.TestThriftCodecManager.testBasicTypes()'><b>testBasicTypes</b><br>Test class: com.facebook.swift.codec.TestThriftCodecManager</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.TestThriftCodecManager@335eadca</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testBean()'><b>testBean</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadata.testBean()'><b>testBean</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testBeanDerivedFromGeneric()'><b>testBeanDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testBeanDerivedFromGeneric()'><b>testBeanDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testBeanDerivedFromGeneric()'><b>testBeanDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testBeanDerivedFromGeneric()'><b>testBeanDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testBeanGeneric()'><b>testBeanGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testBeanGeneric()'><b>testBeanGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testBeanGeneric()'><b>testBeanGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testBeanGeneric()'><b>testBeanGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testBuilder()'><b>testBuilder</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testBuilder()'><b>testBuilder</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testBuilder()'><b>testBuilder</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testBuilder()'><b>testBuilder</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testBuilder()'><b>testBuilder</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadata.testBuilder()'><b>testBuilder</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testCoRecursive()'><b>testCoRecursive</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testCoRecursive()'><b>testCoRecursive</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testCoRecursive()'><b>testCoRecursive</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testCoRecursive()'><b>testCoRecursive</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testCoRecursiveStartingAtHelper()'><b>testCoRecursiveStartingAtHelper</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testCoRecursiveStartingAtHelper()'><b>testCoRecursiveStartingAtHelper</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testCoRecursiveStartingAtHelper()'><b>testCoRecursiveStartingAtHelper</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testCoRecursiveStartingAtHelper()'><b>testCoRecursiveStartingAtHelper</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testCoRecursiveTree()'><b>testCoRecursiveTree</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testCoRecursiveTree()'><b>testCoRecursiveTree</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testCoRecursiveTree()'><b>testCoRecursiveTree</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testCoRecursiveTree()'><b>testCoRecursiveTree</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.TestThriftCodecManager.testCoercedCollection()'><b>testCoercedCollection</b><br>Test class: com.facebook.swift.codec.TestThriftCodecManager</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.TestThriftCodecManager@335eadca</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.TestThriftCodecManager.testCollectionThriftTypes()'><b>testCollectionThriftTypes</b><br>Test class: com.facebook.swift.codec.TestThriftCodecManager</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.TestThriftCodecManager@335eadca</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testConstructor()'><b>testConstructor</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadata.testConstructor()'><b>testConstructor</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testDefaultCoercion()'><b>testDefaultCoercion</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testDefaultCoercion()'><b>testDefaultCoercion</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testDefaultCoercion()'><b>testDefaultCoercion</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testDefaultCoercion()'><b>testDefaultCoercion</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.TestThriftCodecManager.testEnum()'><b>testEnum</b><br>Test class: com.facebook.swift.codec.TestThriftCodecManager</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.TestThriftCodecManager@335eadca</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testExceptionWithIdlAnnotationsMap()'><b>testExceptionWithIdlAnnotationsMap</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestReflectionHelper.testExtractParameterNamesNoAnnotations()'><b>testExtractParameterNamesNoAnnotations</b><br>Test class: com.facebook.swift.codec.metadata.TestReflectionHelper</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestReflectionHelper@210366b4</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestReflectionHelper.testExtractParameterNamesThriftFieldAnnotation()'><b>testExtractParameterNamesThriftFieldAnnotation</b><br>Test class: com.facebook.swift.codec.metadata.TestReflectionHelper</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestReflectionHelper@210366b4</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testField()'><b>testField</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadata.testField()'><b>testField</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testFieldDerivedFromGeneric()'><b>testFieldDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testFieldDerivedFromGeneric()'><b>testFieldDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testFieldDerivedFromGeneric()'><b>testFieldDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testFieldDerivedFromGeneric()'><b>testFieldDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testFieldGeneric()'><b>testFieldGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testFieldGeneric()'><b>testFieldGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testFieldGeneric()'><b>testFieldGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testFieldGeneric()'><b>testFieldGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testFieldWithConflictingIdlAnnotationMap()'><b>testFieldWithConflictingIdlAnnotationMap</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td><div><pre>com.facebook.swift.codec.metadata.MetadataErrorException: Error: Metadata extraction encountered 1 errors and 0 warnings
+	at com.facebook.swift.codec.metadata.MetadataErrors.throwIfHasErrors(MetadataErrors.java:76)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.buildMetadata(TestThriftStructMetadata.java:259)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testMetadataBuild(TestThriftStructMetadata.java:229)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testStructMetadataBuild(TestThriftStructMetadata.java:202)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testFieldWithConflictingIdlAnnotationMap(TestThriftStructMetadata.java:164)
+	Suppressed: com.facebook.swift.codec.metadata.MetadataErrorException: Error: Thrift class &apos;BeanWIthConflictingIdlAnnotationMapsForField&apos; field &apos;2&apos; has conflicting IDL annotation maps
+		at com.facebook.swift.codec.metadata.MetadataErrors.addError(MetadataErrors.java:95)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.extractFieldIdlAnnotations(AbstractThriftMetadataBuilder.java:622)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:530)
+		at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+		at com.facebook.swift.codec.metadata.TestThriftStructMetadata.buildMetadata(TestThriftStructMetadata.java:255)
+		... 37 more
+... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace450420562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace450420562'><pre>com.facebook.swift.codec.metadata.MetadataErrorException: Error: Metadata extraction encountered 1 errors and 0 warnings
+	at com.facebook.swift.codec.metadata.MetadataErrors.throwIfHasErrors(MetadataErrors.java:76)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.buildMetadata(TestThriftStructMetadata.java:259)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testMetadataBuild(TestThriftStructMetadata.java:229)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testStructMetadataBuild(TestThriftStructMetadata.java:202)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadata.testFieldWithConflictingIdlAnnotationMap(TestThriftStructMetadata.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+	Suppressed: com.facebook.swift.codec.metadata.MetadataErrorException: Error: Thrift class &apos;BeanWIthConflictingIdlAnnotationMapsForField&apos; field &apos;2&apos; has conflicting IDL annotation maps
+		at com.facebook.swift.codec.metadata.MetadataErrors.addError(MetadataErrors.java:95)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.extractFieldIdlAnnotations(AbstractThriftMetadataBuilder.java:622)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:530)
+		at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.facebook.swift.codec.metadata.TestThriftStructMetadata.buildMetadata(TestThriftStructMetadata.java:255)
+		... 37 more
+</pre></div></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testFieldWithMatchingIdlAnnotationMaps()'><b>testFieldWithMatchingIdlAnnotationMaps</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testFieldWithOneIdlAnnotationMap()'><b>testFieldWithOneIdlAnnotationMap</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testGenericBuilder()'><b>testGenericBuilder</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testGenericBuilderForNonGenericStruct()'><b>testGenericBuilderForNonGenericStruct</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td><div><pre>com.facebook.swift.codec.metadata.MetadataErrorException: Error: Metadata extraction encountered 1 errors and 0 warnings
+	at com.facebook.swift.codec.metadata.MetadataErrors.throwIfHasErrors(MetadataErrors.java:76)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.build(ThriftStructMetadataBuilder.java:118)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testGenericBuilderForNonGenericStruct(TestThriftStructMetadataBuilder.java:264)
+	Suppressed: com.facebook.swift.codec.metadata.MetadataErrorException: Error: Builder class &apos;com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder$NonGenericStruct$GenericBuilder&apos; may only be generic if the type it builds (&apos;com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder$NonGenericStruct&apos;) is also generic
+		at com.facebook.swift.codec.metadata.MetadataErrors.addError(MetadataErrors.java:95)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.extractBuilderType(AbstractThriftMetadataBuilder.java:161)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.&lt;init&gt;(AbstractThriftMetadataBuilder.java:106)
+		at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:45)
+		at com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testGenericBuilderForNonGenericStruct(TestThriftStructMetadataBuilder.java:263)
+		... 34 more
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1227438915", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1227438915'><pre>com.facebook.swift.codec.metadata.MetadataErrorException: Error: Metadata extraction encountered 1 errors and 0 warnings
+	at com.facebook.swift.codec.metadata.MetadataErrors.throwIfHasErrors(MetadataErrors.java:76)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.build(ThriftStructMetadataBuilder.java:118)
+	at com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testGenericBuilderForNonGenericStruct(TestThriftStructMetadataBuilder.java:264)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+	Suppressed: com.facebook.swift.codec.metadata.MetadataErrorException: Error: Builder class &apos;com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder$NonGenericStruct$GenericBuilder&apos; may only be generic if the type it builds (&apos;com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder$NonGenericStruct&apos;) is also generic
+		at com.facebook.swift.codec.metadata.MetadataErrors.addError(MetadataErrors.java:95)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.extractBuilderType(AbstractThriftMetadataBuilder.java:161)
+		at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.&lt;init&gt;(AbstractThriftMetadataBuilder.java:106)
+		at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:45)
+		at com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testGenericBuilderForNonGenericStruct(TestThriftStructMetadataBuilder.java:263)
+		... 34 more
+</pre></div></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testGenericFromBuilder()'><b>testGenericFromBuilder</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testGenericFromBuilder()'><b>testGenericFromBuilder</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testGenericFromBuilder()'><b>testGenericFromBuilder</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testGenericFromBuilder()'><b>testGenericFromBuilder</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestLegacyFieldIds.testGetThriftFieldIsLegacyId()'><b>testGetThriftFieldIsLegacyId</b><br>Test class: com.facebook.swift.codec.metadata.TestLegacyFieldIds</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testImmutableDerivedFromGeneric()'><b>testImmutableDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testImmutableDerivedFromGeneric()'><b>testImmutableDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testImmutableDerivedFromGeneric()'><b>testImmutableDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testImmutableDerivedFromGeneric()'><b>testImmutableDerivedFromGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testImmutableGeneric()'><b>testImmutableGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testImmutableGeneric()'><b>testImmutableGeneric</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testImmutableGeneric()'><b>testImmutableGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testImmutableGeneric()'><b>testImmutableGeneric</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testIsSetBean()'><b>testIsSetBean</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testIsSetBean()'><b>testIsSetBean</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testIsSetBean()'><b>testIsSetBean</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testIsSetBean()'><b>testIsSetBean</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestLegacyFieldIds.testLegacyIdCorrectlyAnnotated()'><b>testLegacyIdCorrectlyAnnotated</b><br>Test class: com.facebook.swift.codec.metadata.TestLegacyFieldIds</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestLegacyFieldIds.testLegacyIdCorrectlyAnnotatedWhitebox()'><b>testLegacyIdCorrectlyAnnotatedWhitebox</b><br>Test class: com.facebook.swift.codec.metadata.TestLegacyFieldIds</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestLegacyFieldIds.testLegacyIdIncorrect()'><b>testLegacyIdIncorrect</b><br>Test class: com.facebook.swift.codec.metadata.TestLegacyFieldIds</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestLegacyFieldIds.testLegacyIdOnUnion()'><b>testLegacyIdOnUnion</b><br>Test class: com.facebook.swift.codec.metadata.TestLegacyFieldIds</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestLegacyFieldIds@6c3708b3</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testMatchByJavaNameWithThriftNameOverride()'><b>testMatchByJavaNameWithThriftNameOverride</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testMatchByJavaNameWithThriftNameOverride()'><b>testMatchByJavaNameWithThriftNameOverride</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testMatchByJavaNameWithThriftNameOverride()'><b>testMatchByJavaNameWithThriftNameOverride</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testMatchByJavaNameWithThriftNameOverride()'><b>testMatchByJavaNameWithThriftNameOverride</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testMergeableRequiredness()'><b>testMergeableRequiredness</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testMethod()'><b>testMethod</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadata.testMethod()'><b>testMethod</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadata@6f1fba17</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testMulitpleRequiredness()'><b>testMulitpleRequiredness</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testMultipleIds()'><b>testMultipleIds</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder.testMultipleIds()'><b>testMultipleIds</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testMultipleNames()'><b>testMultipleNames</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder.testMultipleNames()'><b>testMultipleNames</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testMultipleTypes()'><b>testMultipleTypes</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder.testMultipleTypes()'><b>testMultipleTypes</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testNoId()'><b>testNoId</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder.testNoId()'><b>testNoId</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testNonFinalStructsOk()'><b>testNonFinalStructsOk</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder.testNonFinalUnionOk()'><b>testNonFinalUnionOk</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testOneOfEverythingField()'><b>testOneOfEverythingField</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testOneOfEverythingField()'><b>testOneOfEverythingField</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testOneOfEverythingField()'><b>testOneOfEverythingField</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testOneOfEverythingField()'><b>testOneOfEverythingField</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testOneOfEverythingFieldEmpty()'><b>testOneOfEverythingFieldEmpty</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testOneOfEverythingFieldEmpty()'><b>testOneOfEverythingFieldEmpty</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testOneOfEverythingFieldEmpty()'><b>testOneOfEverythingFieldEmpty</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testOneOfEverythingFieldEmpty()'><b>testOneOfEverythingFieldEmpty</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testOneOfEverythingFieldManual()'><b>testOneOfEverythingFieldManual</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testOneOfEverythingFieldManual()'><b>testOneOfEverythingFieldManual</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testOneOfEverythingFieldManual()'><b>testOneOfEverythingFieldManual</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testOneOfEverythingFieldManual()'><b>testOneOfEverythingFieldManual</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testRecursiveDefaultUnion()'><b>testRecursiveDefaultUnion</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testRecursiveDefaultUnion()'><b>testRecursiveDefaultUnion</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testRecursiveDefaultUnion()'><b>testRecursiveDefaultUnion</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testRecursiveDefaultUnion()'><b>testRecursiveDefaultUnion</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testRecursiveStructWithIdlAnnotation()'><b>testRecursiveStructWithIdlAnnotation</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testRecursiveStructWithIdlAnnotation()'><b>testRecursiveStructWithIdlAnnotation</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testRecursiveStructWithIdlAnnotation()'><b>testRecursiveStructWithIdlAnnotation</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testRecursiveStructWithIdlAnnotation()'><b>testRecursiveStructWithIdlAnnotation</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testRecursiveStructWithSwiftAnnotation()'><b>testRecursiveStructWithSwiftAnnotation</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testRecursiveStructWithSwiftAnnotation()'><b>testRecursiveStructWithSwiftAnnotation</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testRecursiveStructWithSwiftAnnotation()'><b>testRecursiveStructWithSwiftAnnotation</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testRecursiveStructWithSwiftAnnotation()'><b>testRecursiveStructWithSwiftAnnotation</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testRecursiveStructWithoutRecursiveAnnotation()'><b>testRecursiveStructWithoutRecursiveAnnotation</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td><div><pre>java.lang.IllegalArgumentException: Circular references must be qualified with &apos;isRecursive&apos; on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation-&gt;com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2067180044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2067180044'><pre>java.lang.IllegalArgumentException: Circular references must be qualified with &apos;isRecursive&apos; on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation-&gt;com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</pre></div></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testRecursiveStructWithoutRecursiveAnnotation()'><b>testRecursiveStructWithoutRecursiveAnnotation</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td><div><pre>java.lang.IllegalArgumentException: Circular references must be qualified with &apos;isRecursive&apos; on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation-&gt;com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace547441493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace547441493'><pre>java.lang.IllegalArgumentException: Circular references must be qualified with &apos;isRecursive&apos; on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation-&gt;com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</pre></div></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testRecursiveStructWithoutRecursiveAnnotation()'><b>testRecursiveStructWithoutRecursiveAnnotation</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td><div><pre>java.lang.IllegalArgumentException: Circular references must be qualified with &apos;isRecursive&apos; on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation-&gt;com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1313960293", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1313960293'><pre>java.lang.IllegalArgumentException: Circular references must be qualified with &apos;isRecursive&apos; on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation-&gt;com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</pre></div></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testRecursiveStructWithoutRecursiveAnnotation()'><b>testRecursiveStructWithoutRecursiveAnnotation</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td><div><pre>java.lang.IllegalArgumentException: Circular references must be qualified with &apos;isRecursive&apos; on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation-&gt;com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1649498695", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1649498695'><pre>java.lang.IllegalArgumentException: Circular references must be qualified with &apos;isRecursive&apos; on a @ThriftField annotation in the cycle: com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation-&gt;com.facebook.swift.codec.recursion.WithoutRecursiveAnnotation
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:692)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftTypeReference(ThriftCatalog.java:426)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getFieldThriftTypeReference(ThriftCatalog.java:362)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.verifyFieldType(AbstractThriftMetadataBuilder.java:732)
+	at com.facebook.swift.codec.metadata.AbstractThriftMetadataBuilder.normalizeThriftFields(AbstractThriftMetadataBuilder.java:543)
+	at com.facebook.swift.codec.metadata.ThriftStructMetadataBuilder.&lt;init&gt;(ThriftStructMetadataBuilder.java:51)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.extractThriftStructMetadata(ThriftCatalog.java:699)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftStructMetadata(ThriftCatalog.java:563)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftTypeInternal(ThriftCatalog.java:333)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.buildThriftType(ThriftCatalog.java:246)
+	at com.facebook.swift.codec.metadata.ThriftCatalog.getThriftType(ThriftCatalog.java:234)
+	at com.facebook.swift.codec.ThriftCodecManager.getCodec(ThriftCodecManager.java:215)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRoundTripSerialize(AbstractThriftCodecManagerTest.java:620)
+	at com.facebook.swift.codec.AbstractThriftCodecManagerTest.testRecursiveStructWithoutRecursiveAnnotation(AbstractThriftCodecManagerTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</pre></div></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testRecursiveUnion()'><b>testRecursiveUnion</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testRecursiveUnion()'><b>testRecursiveUnion</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testRecursiveUnion()'><b>testRecursiveUnion</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testRecursiveUnion()'><b>testRecursiveUnion</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testStructBean()'><b>testStructBean</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testStructBean()'><b>testStructBean</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testStructBean()'><b>testStructBean</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testStructBean()'><b>testStructBean</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testStructConstructor()'><b>testStructConstructor</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testStructConstructor()'><b>testStructConstructor</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testStructConstructor()'><b>testStructConstructor</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testStructConstructor()'><b>testStructConstructor</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testStructFields()'><b>testStructFields</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testStructFields()'><b>testStructFields</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testStructFields()'><b>testStructFields</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testStructFields()'><b>testStructFields</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testStructFieldsManual()'><b>testStructFieldsManual</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testStructFieldsManual()'><b>testStructFieldsManual</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testStructFieldsManual()'><b>testStructFieldsManual</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testStructFieldsManual()'><b>testStructFieldsManual</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testStructMethod()'><b>testStructMethod</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testStructMethod()'><b>testStructMethod</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testStructMethod()'><b>testStructMethod</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testStructMethod()'><b>testStructMethod</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testStructWithIdlAnnotationsMap()'><b>testStructWithIdlAnnotationsMap</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testStructWithRecursionViaListElementTypes()'><b>testStructWithRecursionViaListElementTypes</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testStructWithRecursionViaListElementTypes()'><b>testStructWithRecursionViaListElementTypes</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testStructWithRecursionViaListElementTypes()'><b>testStructWithRecursionViaListElementTypes</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testStructWithRecursionViaListElementTypes()'><b>testStructWithRecursionViaListElementTypes</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testStructWithRecursionViaMapKeyAndValueTypes()'><b>testStructWithRecursionViaMapKeyAndValueTypes</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testStructWithRecursionViaMapKeyAndValueTypes()'><b>testStructWithRecursionViaMapKeyAndValueTypes</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testStructWithRecursionViaMapKeyAndValueTypes()'><b>testStructWithRecursionViaMapKeyAndValueTypes</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testStructWithRecursionViaMapKeyAndValueTypes()'><b>testStructWithRecursionViaMapKeyAndValueTypes</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testStructWithRecursionViaNestedListElementTypes()'><b>testStructWithRecursionViaNestedListElementTypes</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testStructWithRecursionViaNestedListElementTypes()'><b>testStructWithRecursionViaNestedListElementTypes</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testStructWithRecursionViaNestedListElementTypes()'><b>testStructWithRecursionViaNestedListElementTypes</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testStructWithRecursionViaNestedListElementTypes()'><b>testStructWithRecursionViaNestedListElementTypes</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.guice.TestThriftCodecModule.testThriftClientAndServerModules()'><b>testThriftClientAndServerModules</b><br>Test class: com.facebook.swift.codec.guice.TestThriftCodecModule</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.guice.TestThriftCodecModule@67784306</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testUnionBean()'><b>testUnionBean</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testUnionBean()'><b>testUnionBean</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testUnionBean()'><b>testUnionBean</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testUnionBean()'><b>testUnionBean</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testUnionConstructor()'><b>testUnionConstructor</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testUnionConstructor()'><b>testUnionConstructor</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testUnionConstructor()'><b>testUnionConstructor</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testUnionConstructor()'><b>testUnionConstructor</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testUnionConstructorDuplicateTypes()'><b>testUnionConstructorDuplicateTypes</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testUnionConstructorDuplicateTypes()'><b>testUnionConstructorDuplicateTypes</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testUnionConstructorDuplicateTypes()'><b>testUnionConstructorDuplicateTypes</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testUnionConstructorDuplicateTypes()'><b>testUnionConstructorDuplicateTypes</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testUnionFields()'><b>testUnionFields</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testUnionFields()'><b>testUnionFields</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testUnionFields()'><b>testUnionFields</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testUnionFields()'><b>testUnionFields</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory.testUnionFieldsManual()'><b>testUnionFieldsManual</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerThriftCodecFactory@57536d79</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory.testUnionFieldsManual()'><b>testUnionFieldsManual</b><br>Test class: com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.compiler.TestCompilerToReflectionThriftCodecFactory@5f9d02cb</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory.testUnionFieldsManual()'><b>testUnionFieldsManual</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionThriftCodecFactory@eec5a4a</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory.testUnionFieldsManual()'><b>testUnionFieldsManual</b><br>Test class: com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.internal.reflection.TestReflectionToCompilerThriftCodecFactory@185d8b6</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadata.testUnionWithIdlAnnotationsMap()'><b>testUnionWithIdlAnnotationsMap</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadata</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadata@5383967b</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder.testUnsupportedType()'><b>testUnsupportedType</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftStructMetadataBuilder@6ddf90b0</td></tr>
+<tr>
+<td title='com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder.testUnsupportedType()'><b>testUnsupportedType</b><br>Test class: com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder</td>
+<td></td>
+<td>0</td>
+<td>com.facebook.swift.codec.metadata.TestThriftUnionMetadataBuilder@2b2948e2</td></tr>
+</table><p>
+</body>
+</html>

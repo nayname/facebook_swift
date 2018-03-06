@@ -1,0 +1,13 @@
+com/facebook/swift/codec/ThriftConstructor.class
+com/facebook/swift/service/ThriftService.class
+com/facebook/swift/codec/ThriftEnumValue.class
+com/facebook/swift/codec/ThriftField.class
+com/facebook/swift/codec/ThriftUnion.class
+com/facebook/swift/codec/ThriftField$Recursiveness.class
+com/facebook/swift/codec/ThriftUnionId.class
+com/facebook/swift/codec/ThriftIdlAnnotation.class
+com/facebook/swift/codec/ThriftEnum.class
+com/facebook/swift/service/ThriftException.class
+com/facebook/swift/codec/ThriftStruct.class
+com/facebook/swift/service/ThriftMethod.class
+com/facebook/swift/codec/ThriftField$Requiredness.class

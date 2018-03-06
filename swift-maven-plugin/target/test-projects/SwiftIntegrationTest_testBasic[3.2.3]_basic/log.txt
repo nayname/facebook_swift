@@ -1,0 +1,25 @@
+Maven Executor implementation: io.takari.maven.testing.executor.Embedded3xLauncher
+Maven home: /root/swift/swift-maven-plugin/target/maven-installation/apache-maven-3.2.3
+Build work directory: /root/swift/swift-maven-plugin/target/test-projects/SwiftIntegrationTest_testBasic[3.2.3]_basic
+Execution parameters: [-Dm2e.workspace.state=/root/swift/swift-maven-plugin/target/workspacestate.properties, -B, -U, -Dmaven.repo.local=/root/.m2/repository, -Dit-plugin.version=0.23.2-SNAPSHOT, -Dit-project.version=0.23.2-SNAPSHOT, generate-sources]
+
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building basic 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- swift-maven-plugin:0.23.2-SNAPSHOT:generate (default) @ basic ---
+Mar 05, 2018 7:27:44 PM io.airlift.log.Logger info
+INFO: Parsing Thrift IDL from [file:/root/swift/swift-maven-plugin/target/test-projects/SwiftIntegrationTest_testBasic%5B3.2.3%5D_basic/idl/scribe.thrift]...
+Mar 05, 2018 7:27:44 PM io.airlift.log.Logger info
+INFO: IDL parsing complete, writing java code...
+Mar 05, 2018 7:27:45 PM io.airlift.log.Logger info
+INFO: Java code generation complete.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.526 s
+[INFO] Finished at: 2018-03-05T19:27:45+00:00
+[INFO] Final Memory: 16M/981M
+[INFO] ------------------------------------------------------------------------

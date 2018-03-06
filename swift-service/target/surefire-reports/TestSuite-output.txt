@@ -1,0 +1,783 @@
+Configuring TestNG with: TestNG652Configurator
+2018-03-05 19:56:11 INFO put started
+2018-03-05 19:56:11 INFO put finished
+2018-03-05 19:56:11 INFO started transport thrift:38532
+2018-03-05 19:56:11 INFO put started
+2018-03-05 19:56:11 INFO put finished
+2018-03-05 19:56:12 INFO stopping transport thrift:38532
+2018-03-05 19:56:12 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:12 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:12 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:12 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:12 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:12 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:12 INFO put started
+2018-03-05 19:56:12 INFO put finished
+2018-03-05 19:56:12 INFO started transport thrift:35164
+2018-03-05 19:56:12 INFO put started
+2018-03-05 19:56:12 INFO put finished
+2018-03-05 19:56:12 INFO stopping transport thrift:35164
+2018-03-05 19:56:12 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:12 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:12 INFO Closing 1 open client connections
+2018-03-05 19:56:12 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:12 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:12 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:12 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:12 INFO put started
+2018-03-05 19:56:12 INFO put finished
+2018-03-05 19:56:12 INFO started transport thrift:40865
+2018-03-05 19:56:13 INFO stopping transport thrift:40865
+2018-03-05 19:56:13 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO put started
+2018-03-05 19:56:13 INFO put finished
+2018-03-05 19:56:13 INFO started transport thrift:38006
+2018-03-05 19:56:13 INFO stopping transport thrift:38006
+2018-03-05 19:56:13 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO put started
+2018-03-05 19:56:13 INFO put finished
+2018-03-05 19:56:13 INFO started transport thrift:34367
+2018-03-05 19:56:13 INFO oneway put started
+2018-03-05 19:56:13 INFO stopping transport thrift:34367
+2018-03-05 19:56:13 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:13 INFO oneway put finished
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:13 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:13 INFO put started
+2018-03-05 19:56:13 INFO put finished
+2018-03-05 19:56:13 INFO started transport thrift:37443
+2018-03-05 19:56:13 INFO put started
+2018-03-05 19:56:14 INFO put finished
+2018-03-05 19:56:14 INFO stopping transport thrift:37443
+2018-03-05 19:56:14 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:14 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:14 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:14 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:14 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:14 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:14 INFO put started
+2018-03-05 19:56:14 INFO put finished
+2018-03-05 19:56:14 INFO started transport thrift:33872
+2018-03-05 19:56:15 INFO stopping transport thrift:33872
+2018-03-05 19:56:15 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO put started
+2018-03-05 19:56:16 INFO put finished
+2018-03-05 19:56:16 INFO started transport thrift:53139
+2018-03-05 19:56:16 INFO stopping transport thrift:53139
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO put started
+2018-03-05 19:56:16 INFO put finished
+2018-03-05 19:56:16 INFO started transport thrift:41762
+2018-03-05 19:56:16 INFO put started
+2018-03-05 19:56:16 INFO put finished
+2018-03-05 19:56:16 INFO stopping transport thrift:41762
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Logging initialized @5087ms
+2018-03-05 19:56:16 INFO jetty-9.2.11.v20150529
+2018-03-05 19:56:16 INFO Started o.e.j.s.ServletContextHandler@5824a83d{/thrift,null,AVAILABLE}
+2018-03-05 19:56:16 INFO Started ServerConnector@e350b40{HTTP/1.1}{0.0.0.0:52115}
+2018-03-05 19:56:16 INFO Started @5156ms
+2018-03-05 19:56:16 INFO Stopped ServerConnector@e350b40{HTTP/1.1}{0.0.0.0:0}
+2018-03-05 19:56:16 INFO Stopped o.e.j.s.ServletContextHandler@5824a83d{/thrift,null,UNAVAILABLE}
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO jetty-9.2.11.v20150529
+2018-03-05 19:56:16 INFO Started o.e.j.s.ServletContextHandler@58cbafc2{/thrift,null,AVAILABLE}
+2018-03-05 19:56:16 INFO Started ServerConnector@2034b64c{HTTP/1.1}{0.0.0.0:34395}
+2018-03-05 19:56:16 INFO Started @5350ms
+2018-03-05 19:56:16 INFO Stopped ServerConnector@2034b64c{HTTP/1.1}{0.0.0.0:0}
+2018-03-05 19:56:16 INFO Stopped o.e.j.s.ServletContextHandler@58cbafc2{/thrift,null,UNAVAILABLE}
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:48116
+2018-03-05 19:56:16 SEVERE Invalid method name: 'missingMethod'
+org.apache.thrift.TApplicationException: Invalid method name: 'missingMethod'
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:115)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-03-05 19:56:16 SEVERE Invalid method name: 'missingMethod'
+org.apache.thrift.TApplicationException: Invalid method name: 'missingMethod'
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:115)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:48116
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:39211
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:39211
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:44191
+2018-03-05 19:56:16 SEVERE This is an exception for testing if event handler exceptions propagate to the client 
+org.apache.thrift.TApplicationException: This is an exception for testing if event handler exceptions propagate to the client 
+	at com.facebook.swift.service.exceptions.ExceptionTest$ExceptionThrowingEventHandler.preRead(ExceptionTest.java:136)
+	at com.facebook.swift.service.ContextChain.preRead(ContextChain.java:45)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:137)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:44191
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:36849
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:36849
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:33622
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:33622
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:47856
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:47856
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:41373
+2018-03-05 19:56:16 SEVERE Internal error processing throwUnexpectedNonThriftCheckedException: null
+org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedNonThriftCheckedException: null
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftMethodProcessor$1.onFailure(ThriftMethodProcessor.java:226)
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1310)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457)
+	at com.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:148)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.swift.service.exceptions.NonThriftCheckedException
+	at com.facebook.swift.service.exceptions.ExceptionServiceHandler.throwUnexpectedNonThriftCheckedException(ExceptionServiceHandler.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.swift.service.ThriftMethodProcessor.invokeMethod(ThriftMethodProcessor.java:257)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:145)
+	... 5 more
+
+2018-03-05 19:56:16 SEVERE Internal error processing throwUnexpectedNonThriftCheckedException: null
+org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedNonThriftCheckedException: null
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftMethodProcessor$1.onFailure(ThriftMethodProcessor.java:226)
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1310)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457)
+	at com.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:148)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.swift.service.exceptions.NonThriftCheckedException
+	at com.facebook.swift.service.exceptions.ExceptionServiceHandler.throwUnexpectedNonThriftCheckedException(ExceptionServiceHandler.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.swift.service.ThriftMethodProcessor.invokeMethod(ThriftMethodProcessor.java:257)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:145)
+	... 5 more
+
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:41373
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:48759
+2018-03-05 19:56:16 SEVERE Internal error processing throwUnexpectedNonThriftUncheckedException: null
+org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedNonThriftUncheckedException: null
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftMethodProcessor$1.onFailure(ThriftMethodProcessor.java:226)
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1310)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457)
+	at com.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:148)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.swift.service.exceptions.NonThriftUncheckedException
+	at com.facebook.swift.service.exceptions.ExceptionServiceHandler.throwUnexpectedNonThriftUncheckedException(ExceptionServiceHandler.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.swift.service.ThriftMethodProcessor.invokeMethod(ThriftMethodProcessor.java:257)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:145)
+	... 5 more
+
+2018-03-05 19:56:16 SEVERE Internal error processing throwUnexpectedNonThriftUncheckedException: null
+org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedNonThriftUncheckedException: null
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftMethodProcessor$1.onFailure(ThriftMethodProcessor.java:226)
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1310)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457)
+	at com.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:148)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.swift.service.exceptions.NonThriftUncheckedException
+	at com.facebook.swift.service.exceptions.ExceptionServiceHandler.throwUnexpectedNonThriftUncheckedException(ExceptionServiceHandler.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.swift.service.ThriftMethodProcessor.invokeMethod(ThriftMethodProcessor.java:257)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:145)
+	... 5 more
+
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:48759
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:51541
+2018-03-05 19:56:16 SEVERE Internal error processing throwUnexpectedThriftUncheckedException: null
+org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedThriftUncheckedException: null
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftMethodProcessor$1.onFailure(ThriftMethodProcessor.java:226)
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1310)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457)
+	at com.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:148)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.swift.service.exceptions.ThriftUncheckedException
+	at com.facebook.swift.service.exceptions.ExceptionServiceHandler.throwUnexpectedThriftUncheckedException(ExceptionServiceHandler.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.swift.service.ThriftMethodProcessor.invokeMethod(ThriftMethodProcessor.java:257)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:145)
+	... 5 more
+
+2018-03-05 19:56:16 SEVERE Internal error processing throwUnexpectedThriftUncheckedException: null
+org.apache.thrift.TApplicationException: Internal error processing throwUnexpectedThriftUncheckedException: null
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftMethodProcessor$1.onFailure(ThriftMethodProcessor.java:226)
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1310)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457)
+	at com.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:148)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.swift.service.exceptions.ThriftUncheckedException
+	at com.facebook.swift.service.exceptions.ExceptionServiceHandler.throwUnexpectedThriftUncheckedException(ExceptionServiceHandler.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.swift.service.ThriftMethodProcessor.invokeMethod(ThriftMethodProcessor.java:257)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:145)
+	... 5 more
+
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:51541
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:50408
+2018-03-05 19:56:16 SEVERE Internal error processing throwWrongThriftException: null
+org.apache.thrift.TApplicationException: Internal error processing throwWrongThriftException: null
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftMethodProcessor$1.onFailure(ThriftMethodProcessor.java:226)
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1310)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457)
+	at com.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:148)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.swift.service.exceptions.ThriftUncheckedException
+	at com.facebook.swift.service.exceptions.ExceptionServiceHandler.throwWrongThriftException(ExceptionServiceHandler.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.swift.service.ThriftMethodProcessor.invokeMethod(ThriftMethodProcessor.java:257)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:145)
+	... 5 more
+
+2018-03-05 19:56:16 SEVERE Internal error processing throwWrongThriftException: null
+org.apache.thrift.TApplicationException: Internal error processing throwWrongThriftException: null
+	at com.facebook.swift.service.ThriftServiceProcessor.createAndWriteApplicationException(ThriftServiceProcessor.java:183)
+	at com.facebook.swift.service.ThriftMethodProcessor$1.onFailure(ThriftMethodProcessor.java:226)
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1310)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457)
+	at com.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322)
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:148)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:137)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.swift.service.exceptions.ThriftUncheckedException
+	at com.facebook.swift.service.exceptions.ExceptionServiceHandler.throwWrongThriftException(ExceptionServiceHandler.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.swift.service.ThriftMethodProcessor.invokeMethod(ThriftMethodProcessor.java:257)
+	at com.facebook.swift.service.ThriftMethodProcessor.process(ThriftMethodProcessor.java:145)
+	... 5 more
+
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:50408
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:50615
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:50615
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:40991
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:40991
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:42290
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:42290
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:53711
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:53711
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:53221
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:53221
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:43621
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:43621
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:58963
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:58963
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:43425
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:43425
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:53717
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:53717
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:37003
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:37003
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport nifty-30:57771
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport nifty-30:57771
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport nifty-31:49434
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport nifty-31:49434
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport nifty-32:40854
+2018-03-05 19:56:16 SEVERE Exception triggered on channel connected to /127.0.0.1:37539
+org.apache.thrift.protocol.TProtocolException: Expected protocol id ffffff82 but got ffffff80
+	at org.apache.thrift.protocol.TCompactProtocol.readMessageBegin(TCompactProtocol.java:503)
+	at com.facebook.swift.service.ThriftServiceProcessor.process(ThriftServiceProcessor.java:107)
+	at com.facebook.nifty.core.NiftyDispatcher$1.run(NiftyDispatcher.java:225)
+	at com.facebook.nifty.core.ThriftServerDefBuilderBase$1.execute(ThriftServerDefBuilderBase.java:94)
+	at com.facebook.nifty.core.NiftyDispatcher.processRequest(NiftyDispatcher.java:150)
+	at com.facebook.nifty.core.NiftyDispatcher.messageReceived(NiftyDispatcher.java:99)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at com.facebook.nifty.codec.DefaultThriftFrameCodec.handleUpstream(DefaultThriftFrameCodec.java:42)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at com.facebook.nifty.core.ChannelStatistics.handleUpstream(ChannelStatistics.java:79)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.messageReceived(SimpleChannelUpstreamHandler.java:124)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.messageReceived(SimpleChannelUpstreamHandler.java:124)
+	at com.facebook.nifty.core.ConnectionContextHandler.messageReceived(ConnectionContextHandler.java:43)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport nifty-32:40854
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO started transport thrift:35504
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO stopping transport thrift:35504
+2018-03-05 19:56:16 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:16 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:58927
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO stopping transport thrift:58927
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:46217
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO stopping transport thrift:46217
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:41411
+2018-03-05 19:56:17 INFO stopping transport thrift:41411
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:55813
+2018-03-05 19:56:17 INFO stopping transport thrift:55813
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:33501
+2018-03-05 19:56:17 INFO stopping transport thrift:33501
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO PROPERTY                       DEFAULT   RUNTIME   DESCRIPTION
+2018-03-05 19:56:17 INFO thrift.client.connect-timeout  500.00ms  500.00ms
+2018-03-05 19:56:17 INFO thrift.client.max-frame-size   16777216  16777216
+2018-03-05 19:56:17 INFO thrift.client.read-timeout     10.00s    10.00s
+2018-03-05 19:56:17 INFO thrift.client.receive-timeout  1.00m     1.00m
+2018-03-05 19:56:17 INFO thrift.client.socks-proxy      null      null
+2018-03-05 19:56:17 INFO thrift.client.write-timeout    1.00m     1.00m
+2018-03-05 19:56:17 INFO 
+2018-03-05 19:56:17 INFO started transport thrift:34798
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO stopping transport thrift:34798
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport nifty-40:54155
+2018-03-05 19:56:17 INFO stopping transport nifty-40:54155
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO PROPERTY                                    DEFAULT    RUNTIME    DESCRIPTION
+2018-03-05 19:56:17 INFO thrift.accept-backlog                       1024       1024
+2018-03-05 19:56:17 INFO thrift.acceptor-threads.count               1          1
+2018-03-05 19:56:17 INFO thrift.bind-address                         localhost  localhost
+2018-03-05 19:56:17 INFO thrift.connection-limit                     0          0
+2018-03-05 19:56:17 INFO thrift.idle-connection-timeout              60.00s     60.00s
+2018-03-05 19:56:17 INFO thrift.io-threads.count                     16         16
+2018-03-05 19:56:17 INFO thrift.max-frame-size                       64MB       64MB
+2018-03-05 19:56:17 INFO thrift.max-queued-requests                  null       null
+2018-03-05 19:56:17 INFO thrift.max-queued-responses-per-connection  16         16
+2018-03-05 19:56:17 INFO thrift.port                                 0          0
+2018-03-05 19:56:17 INFO thrift.protocol                             binary     binary
+2018-03-05 19:56:17 INFO thrift.queue-timeout                        null       null
+2018-03-05 19:56:17 INFO thrift.task-expiration-timeout              5.00s      5.00s
+2018-03-05 19:56:17 INFO thrift.traffic-class                        0          0
+2018-03-05 19:56:17 INFO thrift.transport                            framed     framed
+2018-03-05 19:56:17 INFO thrift.worker-executor-key                  null       null
+2018-03-05 19:56:17 INFO thrift.threads.max                          200        200
+2018-03-05 19:56:17 INFO 
+2018-03-05 19:56:17 INFO PROPERTY  DEFAULT  RUNTIME  DESCRIPTION
+2018-03-05 19:56:17 INFO 
+2018-03-05 19:56:17 INFO started transport thrift:43125
+2018-03-05 19:56:17 INFO Life cycle starting...
+2018-03-05 19:56:17 INFO Life cycle startup complete. System ready.
+2018-03-05 19:56:17 INFO PROPERTY                                    DEFAULT    RUNTIME      DESCRIPTION
+2018-03-05 19:56:17 INFO thrift.accept-backlog                       1024       1024
+2018-03-05 19:56:17 INFO thrift.acceptor-threads.count               1          1
+2018-03-05 19:56:17 INFO thrift.bind-address                         localhost  localhost
+2018-03-05 19:56:17 INFO thrift.connection-limit                     0          0
+2018-03-05 19:56:17 INFO thrift.idle-connection-timeout              60.00s     60.00s
+2018-03-05 19:56:17 INFO thrift.io-threads.count                     16         16
+2018-03-05 19:56:17 INFO thrift.max-frame-size                       64MB       64MB
+2018-03-05 19:56:17 INFO thrift.max-queued-requests                  null       null
+2018-03-05 19:56:17 INFO thrift.max-queued-responses-per-connection  16         16
+2018-03-05 19:56:17 INFO thrift.port                                 0          0
+2018-03-05 19:56:17 INFO thrift.protocol                             binary     binary
+2018-03-05 19:56:17 INFO thrift.queue-timeout                        null       null
+2018-03-05 19:56:17 INFO thrift.task-expiration-timeout              5.00s      5.00s
+2018-03-05 19:56:17 INFO thrift.traffic-class                        0          0
+2018-03-05 19:56:17 INFO thrift.transport                            framed     framed
+2018-03-05 19:56:17 INFO thrift.worker-executor-key                  null       my-executor
+2018-03-05 19:56:17 INFO thrift.threads.max                          200        200
+2018-03-05 19:56:17 INFO 
+2018-03-05 19:56:17 INFO started transport thrift:55418
+2018-03-05 19:56:17 INFO Life cycle starting...
+2018-03-05 19:56:17 INFO Life cycle startup complete. System ready.
+2018-03-05 19:56:17 INFO PROPERTY                                    DEFAULT    RUNTIME    DESCRIPTION
+2018-03-05 19:56:17 INFO thrift.accept-backlog                       1024       1024
+2018-03-05 19:56:17 INFO thrift.acceptor-threads.count               1          1
+2018-03-05 19:56:17 INFO thrift.bind-address                         localhost  localhost
+2018-03-05 19:56:17 INFO thrift.connection-limit                     0          0
+2018-03-05 19:56:17 INFO thrift.idle-connection-timeout              60.00s     60.00s
+2018-03-05 19:56:17 INFO thrift.io-threads.count                     16         16
+2018-03-05 19:56:17 INFO thrift.max-frame-size                       64MB       64MB
+2018-03-05 19:56:17 INFO thrift.max-queued-requests                  null       null
+2018-03-05 19:56:17 INFO thrift.max-queued-responses-per-connection  16         16
+2018-03-05 19:56:17 INFO thrift.port                                 0          0
+2018-03-05 19:56:17 INFO thrift.protocol                             binary     binary
+2018-03-05 19:56:17 INFO thrift.queue-timeout                        null       null
+2018-03-05 19:56:17 INFO thrift.task-expiration-timeout              5.00s      5.00s
+2018-03-05 19:56:17 INFO thrift.traffic-class                        0          0
+2018-03-05 19:56:17 INFO thrift.transport                            framed     framed
+2018-03-05 19:56:17 INFO thrift.worker-executor-key                  null       null
+2018-03-05 19:56:17 INFO thrift.threads.max                          200        43
+2018-03-05 19:56:17 INFO 
+2018-03-05 19:56:17 INFO started transport thrift:35150
+2018-03-05 19:56:17 INFO Life cycle starting...
+2018-03-05 19:56:17 INFO Life cycle startup complete. System ready.
+2018-03-05 19:56:17 INFO started transport thrift:46333
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO stopping transport thrift:46333
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:39739
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO stopping transport thrift:39739
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:38143
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO stopping transport thrift:38143
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:52739
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO stopping transport thrift:52739
+2018-03-05 19:56:17 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:17 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:17 INFO started transport thrift:47100
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO stopping transport thrift:47100
+2018-03-05 19:56:18 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO started transport thrift:32934
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO stopping transport thrift:32934
+2018-03-05 19:56:18 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO started transport thrift:54354
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO stopping transport thrift:54354
+2018-03-05 19:56:18 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO started transport thrift:38623
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO stopping transport thrift:38623
+2018-03-05 19:56:18 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO started transport thrift:51008
+2018-03-05 19:56:18 INFO stopping transport thrift:51008
+2018-03-05 19:56:18 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO started transport thrift:57466
+2018-03-05 19:56:18 INFO stopping transport thrift:57466
+2018-03-05 19:56:18 INFO Waiting for dispatcher to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for bossExecutor to shutdown
+2018-03-05 19:56:18 INFO Waiting for workerExecutor to shutdown
+2018-03-05 19:56:18 INFO Server running on port 38794
+2018-03-05 19:56:18 INFO Server running on port 56789
