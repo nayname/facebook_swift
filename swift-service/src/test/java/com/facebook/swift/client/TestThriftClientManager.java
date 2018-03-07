@@ -28,6 +28,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.facebook.swift.dsl.DSL;
+import com.facebook.swift.dsl.executor.info.Step;
 import com.facebook.swift.dsl.formats.redirect.RedirectDSL;
 import com.facebook.swift.dsl.formats.test.TestDSL;
 import com.facebook.swift.service.ThriftServerConfig;
@@ -58,24 +59,40 @@ public class TestThriftClientManager extends SuiteBase<DelayedMap.Service, Delay
 
     try {
       ArrayList<String> inputs = new ArrayList<>();
-      inputs.add(LOCALHOST_IP_ADDRESS);
-      ArrayList<String> outputs = new ArrayList<>();
-      HashMap<String, Object> env = new HashMap<>();
+      inputs.add("127.0.0.1");
+      inputs.add("127.0.0.2");
+      inputs.add("127.0.0");
+      inputs.add("127.0.0.1");
+      inputs.add("127.0.0.1");
+      inputs.add("138.0.0.1");
+      
+      int count = 0;
+      
+      HashMap<Integer, ArrayList<HashMap<Integer, Step>>> out = new HashMap<Integer, ArrayList<HashMap<Integer,Step>>>(); 
 
-      new TestDSL(inputs, outputs);
+      for ( String input : inputs ) {
+    	  if (input != null) {
+    		  new TestDSL();
+    		  
+    		  count ++;
 
-      TestDSL.getInstance().send("BeforeStart");
-      TestDSL.getInstance().execute("Start", 1, inputs, env);
-      TestDSL.getInstance().send("Start");
+    		  TestDSL.getInstance().mess("BeforeStart");
+    		  TestDSL.getInstance().execute("Start", 1, input, null);
+    		  TestDSL.getInstance().mess("Start");
 
-      getClientManager().getRemoteAddress(getClient());
+    		  getClientManager().getRemoteAddress(getClient());
 
-      TestDSL.getInstance().send("BeforeTerminate");
-      TestDSL.getInstance().execute("Terminate", 3, null, env);
-      TestDSL.getInstance().send("Terminate");
+    		  TestDSL.getInstance().mess("BeforeTerminate");
+    		  TestDSL.getInstance().execute("Terminate", 3, "", null);
+    		  TestDSL.getInstance().mess("Terminate");
+    		  out.put(count, TestDSL.getInstance().getBuffer());
+    	  }
+      }
+      DSL.send(new Gson().toJson(out));
+      
     }
     catch (Exception e) {
-      throw new IllegalArgumentException("Invalid swift client object", e);
+    	throw new IllegalArgumentException(e.getMessage(), e);
     }
 
   }

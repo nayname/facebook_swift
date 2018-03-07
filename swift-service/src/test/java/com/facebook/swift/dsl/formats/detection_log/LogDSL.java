@@ -36,7 +36,7 @@ public class LogDSL extends DSL {
 
 
   public LogDSL(ArrayList<EventAtMinute> inputs, ArrayList<Integer> outputs, String client, String command, int client_id) {
-    super(inputs, outputs);
+    super();
     for (EventAtMinute e : inputs) {
       ExecData d = new ExecData();
 

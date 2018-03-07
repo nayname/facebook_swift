@@ -349,7 +349,7 @@ public class ThriftClientManager implements Closeable
       
       HashMap<String, Object> env = new HashMap<>();
       env.put("client", client.toString());
-      TestDSL.getInstance().execute("GetRemoteAddress", 1, null, env);
+      TestDSL.getInstance().execute("GetRemoteAddress", 1, "", env);
       NiftyClientChannel niftyChannel = getNiftyChannel(client);
 
       try {

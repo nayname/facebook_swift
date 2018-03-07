@@ -15,33 +15,27 @@
  */
 package com.facebook.swift.dsl.formats.test;
 
-import java.net.InetSocketAddress;
-import java.net.SocketAddress;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-import org.jboss.netty.channel.Channel;
-
 import com.facebook.swift.dsl.DSL;
-import com.facebook.swift.dsl.executor.Executor;
 import com.facebook.swift.dsl.executor.info.ExecData;
-import com.facebook.swift.dsl.executor.info.Step;
-import com.facebook.swift.dsl.formats.detection_log.LogUtils;
 
 public class TestDSL extends DSL {
 
   private ExecData data;
+  private int label;
   private static volatile TestDSL instance;
 
   public static TestDSL getInstance() {
-    return instance;
+  	return instance;
   }
-  
-  public TestDSL(ArrayList<String> inputs, ArrayList<String> outputs) {
-    super(inputs, outputs);
-    instance = this;
-    data = new ExecData();
+
+  public TestDSL() {
+  	super();
+  	instance = this;
+  	data = new ExecData();
     
 //    for (EventAtMinute e : inputs) {
 //      ExecData d = new ExecData();
@@ -74,17 +68,24 @@ public class TestDSL extends DSL {
 //    }
   }
 
+  public void execute(String command, Integer id, String arg, HashMap<String, Object> envs) {
+    ArrayList<String> args = new ArrayList<>();
+    args.add(arg);
+    execute(command, id, args, envs);
+  }
+  
   public void execute(String command, Integer id, ArrayList<String> args, HashMap<String, Object> envs) {
     data.toProgram("id", id);
     data.toProgram("program", "asses"+command);
+    mess(envs+" - "+args+" - "+command);
     
     if (command.toLowerCase().equals("terminate")) {
       data.toEnvironment("terminate", true, true);
       data.flush_buffer(out);
       data.clear();
-      send(null);
+//      send(null);
     } else {
-      if (args != null) {
+      if (args != null && !args.isEmpty()) {
         int count = 0;
         for ( String arg : args) {
           count ++;
@@ -92,9 +93,9 @@ public class TestDSL extends DSL {
         }
       }
       
-      for ( Entry<String, Object> env : envs.entrySet() )
-        data.toEnvironment(env.getKey(), env.getValue(), true);
-      send(envs.toString()+" - "+args);
+      if (envs != null)
+        for ( Entry<String, Object> env : envs.entrySet() )
+          data.toEnvironment(env.getKey(), env.getValue(), true);
     }
     data.next_step();
   }

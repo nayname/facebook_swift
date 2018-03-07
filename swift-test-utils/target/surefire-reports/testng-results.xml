@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.facebook.swift.testing.TestingUtilsTest" duration-ms="30" started-at="2018-03-05T19:26:56Z" finished-at="2018-03-05T19:26:56Z">
+  <suite name="com.facebook.swift.testing.TestingUtilsTest" duration-ms="27" started-at="2018-03-06T15:03:26Z" finished-at="2018-03-06T15:03:26Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="30" started-at="2018-03-05T19:26:56Z" finished-at="2018-03-05T19:26:56Z">
+    <test name="Command line test" duration-ms="27" started-at="2018-03-06T15:03:26Z" finished-at="2018-03-06T15:03:26Z">
       <class name="com.facebook.swift.testing.TestingUtilsTest">
-        <test-method status="PASS" signature="sanity()[pri:0, instance:com.facebook.swift.testing.TestingUtilsTest@2b80d80f]" name="sanity" duration-ms="24" started-at="2018-03-05T19:26:56Z" finished-at="2018-03-05T19:26:56Z">
+        <test-method status="PASS" signature="sanity()[pri:0, instance:com.facebook.swift.testing.TestingUtilsTest@2b80d80f]" name="sanity" duration-ms="18" started-at="2018-03-06T15:03:26Z" finished-at="2018-03-06T15:03:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sanity -->

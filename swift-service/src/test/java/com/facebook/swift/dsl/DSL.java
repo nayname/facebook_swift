@@ -30,32 +30,40 @@ import com.facebook.swift.dsl.executor.info.Step;
 import com.google.gson.Gson;
 
 public class DSL {
-  
-  public Executor exec;
-  public ArrayList<ExecData> data;
-  public ArrayList<HashMap<Integer, Step>> out = new ArrayList<HashMap<Integer, Step>>();
-  
-  public DSL (ArrayList inputs, ArrayList outputs) {
-    exec = new Executor();
-    data = new ArrayList<ExecData>();
-  }
-  
-  public void send(String mess) {
-    try {
-      if (mess == null) {
-        String strout = new Gson().toJson(out);
-        ArrayList<String> tmp = new ArrayList<String>();
-        tmp.add(strout);
 
-        Utils.writeFile(tmp, "/root/NeuralProgramSynthesis/dsl/data/data_buffer.json", false);
-      } else {
-        ArrayList<String> tmp = new ArrayList<String>();
-        tmp.add(mess);
-        Utils.writeFile(tmp, "/root/NeuralProgramSynthesis/dsl/data/error.json", true);
-      }
-    }
-    catch (Exception e) {
-      throw new IllegalArgumentException("Invalid swift client object", e);
-    }
-  }
+	public Executor exec;
+	public ArrayList<ExecData> data;
+	protected ArrayList<HashMap<Integer, Step>> out = new ArrayList<HashMap<Integer, Step>>();
+
+	public DSL () {
+		exec = new Executor();
+		data = new ArrayList<ExecData>();
+	}
+
+	public ArrayList<HashMap<Integer, Step>> getBuffer() {
+		return out;
+			//Utils.writeFile(tmp, "/root/NeuralProgramSynthesis/dsl/data/data_buffer.json", false);
+	}
+
+	public void mess(String mess) {
+		try {
+			ArrayList<String> tmp = new ArrayList<String>();
+			tmp.add(mess);
+			Utils.writeFile(tmp, "/root/NeuralProgramSynthesis/dsl/data/error.json", true);
+		}
+		catch (Exception e) {
+			throw new IllegalArgumentException(e.getMessage(), e);
+		}
+	}
+	
+	public static void send(String mess) {
+		try {
+			ArrayList<String> tmp = new ArrayList<String>();
+			tmp.add(mess);
+			Utils.writeFile(tmp, "/root/NeuralProgramSynthesis/dsl/data/data_buffer.json", false);
+		}
+		catch (Exception e) {
+			throw new IllegalArgumentException(e.getMessage(), e);
+		}
+	}
 }

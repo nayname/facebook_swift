@@ -34,7 +34,7 @@ public class RedirectDSL extends DSL {
 
   public RedirectDSL(ArrayList<String> inputs, ArrayList<Integer> outputs,
       Map<String, Collection<RedirectData>> redirects) {
-    super(inputs, outputs);
+    super();
     int count = 0;
     for (String q : inputs) {
       if (!q.isEmpty()) {
