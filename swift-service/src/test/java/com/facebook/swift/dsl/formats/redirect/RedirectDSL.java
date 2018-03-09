@@ -75,6 +75,6 @@ public class RedirectDSL extends DSL {
       d.flush_buffer(out);
       d.clear();
     }
-    send(null);
+//    send(null);
   }
 }

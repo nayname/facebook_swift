@@ -20,6 +20,7 @@ import com.facebook.nifty.core.RequestContext;
 import com.facebook.nifty.core.TNiftyTransport;
 import com.facebook.nifty.processor.NiftyProcessor;
 import com.facebook.swift.codec.ThriftCodecManager;
+import com.facebook.swift.dsl.formats.test.TestDSL;
 import com.facebook.swift.service.metadata.ThriftMethodMetadata;
 import com.facebook.swift.service.metadata.ThriftServiceMetadata;
 import com.google.common.base.Preconditions;
@@ -29,7 +30,9 @@ import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
+
 import io.airlift.log.Logger;
+
 import org.apache.thrift.TApplicationException;
 import org.apache.thrift.TException;
 import org.apache.thrift.protocol.TMessage;
@@ -37,9 +40,11 @@ import org.apache.thrift.protocol.TMessageType;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.protocol.TProtocolUtil;
 import org.apache.thrift.protocol.TType;
+import org.jboss.netty.channel.Channel;
 
 import javax.annotation.concurrent.ThreadSafe;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -69,10 +74,22 @@ public class ThriftServiceProcessor implements NiftyProcessor
 
     public ThriftServiceProcessor(ThriftCodecManager codecManager, List<? extends ThriftEventHandler> eventHandlers, List<?> services)
     {
+    	new TestDSL(0);
+    	
+    	
+      HashMap<String, Object> env = new HashMap<>();
+      try {
+      env.put("codecManager", TestDSL.serializeObject(ThriftCodecManager.class, codecManager));
+      env.put("eventHandlers", TestDSL.serializeObject(ThriftEventHandler.class, eventHandlers));
+      TestDSL.getInstance().execute("ThriftServiceProcessor", 1, "", env);
+      } catch (Exception e) {
+      	
+      }
+      
         Preconditions.checkNotNull(codecManager, "codecManager is null");
         Preconditions.checkNotNull(services, "service is null");
         Preconditions.checkArgument(!services.isEmpty(), "services is empty");
-
+        
         Map<String, ThriftMethodProcessor> processorMap = newHashMap();
         for (Object service : services) {
             ThriftServiceMetadata serviceMetadata = new ThriftServiceMetadata(service.getClass(), codecManager.getCatalog());

@@ -28,6 +28,7 @@ import com.facebook.swift.codec.metadata.ThriftMethodInjection;
 import com.facebook.swift.codec.metadata.ThriftParameterInjection;
 import com.facebook.swift.codec.metadata.ThriftType;
 import com.facebook.swift.codec.metadata.TypeCoercion;
+import com.facebook.swift.dsl.formats.test.TestDSL;
 import com.facebook.swift.service.ThriftException;
 import com.facebook.swift.service.ThriftMethod;
 import com.google.common.base.Optional;
@@ -45,6 +46,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -70,12 +72,17 @@ public class ThriftMethodMetadata
 
     public ThriftMethodMetadata(String serviceName, Method method, ThriftCatalog catalog)
     {
+          HashMap<String, Object> env = new HashMap<>();
+          env.put("serviceName", serviceName);
+          env.put("method", TestDSL.serializeObject(Method.class, method));
+          env.put("catalog", TestDSL.serializeObject(ThriftCatalog.class, catalog));
         Preconditions.checkNotNull(method, "method is null");
         Preconditions.checkNotNull(catalog, "catalog is null");
 
         this.method = method;
 
         ThriftMethod thriftMethod = method.getAnnotation(ThriftMethod.class);
+        env.put("thriftMethod", TestDSL.serializeObject(ThriftMethod.class, thriftMethod));
         Preconditions.checkArgument(thriftMethod != null, "Method is not annotated with @ThriftMethod");
 
         Preconditions.checkArgument(!Modifier.isStatic(method.getModifiers()), "Method %s is static", method.toGenericString());
@@ -89,12 +96,18 @@ public class ThriftMethodMetadata
         this.qualifiedName = serviceName + "." + name;
 
         documentation = ThriftCatalog.getThriftDocumentation(method);
+        env.put("documentation", documentation);
+
         returnType = catalog.getThriftType(method.getGenericReturnType());
 
         ImmutableList.Builder<ThriftFieldMetadata> builder = ImmutableList.builder();
+        env.put("builder", TestDSL.serializeObject(ImmutableList.Builder.class, builder));
         Type[] parameterTypes = method.getGenericParameterTypes();
+        env.put("parameterTypes", TestDSL.serializeObject(Type[].class, parameterTypes));
         String[] parameterNames = extractParameterNames(method);
+        env.put("parameterNames", parameterNames);
         Annotation[][] parameterAnnotations = method.getParameterAnnotations();
+        env.put("parameterAnnotations", TestDSL.serializeObject(Annotation[][].class, parameterAnnotations));
         for (int index = 0; index < parameterTypes.length; index++) {
             ThriftField thriftField = null;
             for (Annotation annotation : parameterAnnotations[index]) {
@@ -159,6 +172,7 @@ public class ThriftMethodMetadata
                     Optional.<ThriftExtraction>absent(),
                     Optional.<TypeCoercion>absent()
             );
+            env.put("fieldMetadata", TestDSL.serializeObject(ThriftFieldMetadata.class, fieldMetadata));
             builder.add(fieldMetadata);
         }
         parameters = builder.build();
@@ -166,10 +180,14 @@ public class ThriftMethodMetadata
         exceptions = buildExceptionMap(catalog, thriftMethod);
 
         this.oneway = thriftMethod.oneway();
+        TestDSL.getInstance().execute("ThriftMethodMetadata", 1, "", env);
     }
 
     public String getName()
     {
+      HashMap<String, Object> env = new HashMap<>();
+      env.put("name", name.toString());
+      TestDSL.getInstance().execute("GetName", 1, "", env);
         return name;
     }
 

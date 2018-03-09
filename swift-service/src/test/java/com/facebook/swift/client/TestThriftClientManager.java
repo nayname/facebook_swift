@@ -25,6 +25,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map.Entry;
 import java.util.Set;
 
 import com.facebook.swift.dsl.DSL;
@@ -58,26 +59,26 @@ public class TestThriftClientManager extends SuiteBase<DelayedMap.Service, Delay
     // (because doing a reverse lookup causes performance problems - e.g. for logging code)
 
     try {
-      ArrayList<String> inputs = new ArrayList<>();
-      inputs.add("127.0.0.1");
-      inputs.add("127.0.0.2");
-      inputs.add("127.0.0");
-      inputs.add("127.0.0.1");
-      inputs.add("127.0.0.1");
-      inputs.add("138.0.0.1");
+      HashMap<String, Integer> inputs = new HashMap<String, Integer>();
+      inputs.put("127.0.0.1", 1);
+      inputs.put("127.0.0.2", 0);
+      inputs.put("127.0.0", 0);
+      inputs.put("127.0.0.1", 1);
+      inputs.put("127.0.0.1", 1);
+      inputs.put("138.0.0.1", 1);
       
       int count = 0;
       
       HashMap<Integer, ArrayList<HashMap<Integer, Step>>> out = new HashMap<Integer, ArrayList<HashMap<Integer,Step>>>(); 
 
-      for ( String input : inputs ) {
+      for ( Entry<String, Integer> input : inputs.entrySet() ) {
     	  if (input != null) {
-    		  new TestDSL();
+    		  new TestDSL(input.getValue());
     		  
     		  count ++;
 
     		  TestDSL.getInstance().mess("BeforeStart");
-    		  TestDSL.getInstance().execute("Start", 1, input, null);
+    		  TestDSL.getInstance().execute("Start", 1, input.getKey(), null);
     		  TestDSL.getInstance().mess("Start");
 
     		  getClientManager().getRemoteAddress(getClient());
@@ -88,7 +89,7 @@ public class TestThriftClientManager extends SuiteBase<DelayedMap.Service, Delay
     		  out.put(count, TestDSL.getInstance().getBuffer());
     	  }
       }
-      DSL.send(new Gson().toJson(out));
+      DSL.send(new Gson().toJson(out), "testUnresolvedRemoteAddress");
       
     }
     catch (Exception e) {

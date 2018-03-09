@@ -64,6 +64,7 @@ import java.io.Closeable;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -348,17 +349,23 @@ public class ThriftClientManager implements Closeable
     {
       
       HashMap<String, Object> env = new HashMap<>();
-      env.put("client", client.toString());
-      TestDSL.getInstance().execute("GetRemoteAddress", 1, "", env);
       NiftyClientChannel niftyChannel = getNiftyChannel(client);
 
       try {
-        Channel nettyChannel = niftyChannel.getNettyChannel();
+        Channel nettyChannel = niftyChannel.getNettyChannel();        
+        env.put("nettyChannel", TestDSL.serializeObject(Channel.class, nettyChannel));
+        
+        TestDSL.getInstance().execute("GetNettyChannel", 2, "", env);
+        
         SocketAddress address = nettyChannel.getRemoteAddress();
+        
+        env.put("address", TestDSL.serializeObject(SocketAddress.class, address));
+        TestDSL.getInstance().execute("GetRemoteAddress", 3, "", env);
+        
         InetSocketAddress inetAddress = (InetSocketAddress) address;
         return HostAndPort.fromParts(inetAddress.getHostString(), inetAddress.getPort());
       }
-      catch (NullPointerException | ClassCastException e) {
+      catch (Exception e) {
         throw new IllegalArgumentException("Invalid swift client object", e);
       }
     }

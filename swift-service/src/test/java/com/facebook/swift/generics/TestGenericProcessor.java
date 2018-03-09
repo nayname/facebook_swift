@@ -17,6 +17,9 @@ package com.facebook.swift.generics;
 
 import com.facebook.nifty.client.FramedClientConnector;
 import com.facebook.swift.codec.ThriftCodecManager;
+import com.facebook.swift.dsl.DSL;
+import com.facebook.swift.dsl.executor.info.Step;
+import com.facebook.swift.dsl.formats.test.TestDSL;
 import com.facebook.swift.service.ThriftClient;
 import com.facebook.swift.service.ThriftClientManager;
 import com.facebook.swift.service.ThriftEventHandler;
@@ -25,8 +28,12 @@ import com.facebook.swift.service.ThriftServerConfig;
 import com.facebook.swift.service.ThriftServiceProcessor;
 import com.google.common.collect.ImmutableList;
 import com.google.common.net.HostAndPort;
+import com.google.gson.Gson;
+
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.concurrent.ExecutionException;
 
 import static org.testng.AssertJUnit.assertEquals;
@@ -37,6 +44,20 @@ public class TestGenericProcessor
     public void testGenericProcessor()
             throws ExecutionException, InterruptedException
     {
+    	ArrayList<Object> inputs = new ArrayList<>();
+      
+      int count = 0;
+      
+      HashMap<Integer, ArrayList<HashMap<Integer, Step>>> out = new HashMap<Integer, ArrayList<HashMap<Integer,Step>>>();
+      
+      new TestDSL(0);
+		  
+		  count ++;
+
+		  TestDSL.getInstance().mess("BeforeStart");
+		  TestDSL.getInstance().execute("Start", 1, "", null);
+		  TestDSL.getInstance().mess("Start");
+
         ThriftCodecManager codecManager = new ThriftCodecManager();
         ThriftServiceProcessor processor = new ThriftServiceProcessor(codecManager, ImmutableList.<ThriftEventHandler>of(), new GenericService());
 
@@ -50,5 +71,13 @@ public class TestGenericProcessor
                 assertEquals(original, copy);
             }
         }
+        
+
+  		  TestDSL.getInstance().mess("BeforeTerminate");
+  		  TestDSL.getInstance().execute("Terminate", 3, "", null);
+  		  TestDSL.getInstance().mess("Terminate");
+  		  out.put(count, TestDSL.getInstance().getBuffer());
+  		  
+  		  DSL.send(new Gson().toJson(out), "testGenericProcessor");
     }
 }

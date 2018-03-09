@@ -56,11 +56,11 @@ public class DSL {
 		}
 	}
 	
-	public static void send(String mess) {
+	public static void send(String mess, String label) {
 		try {
 			ArrayList<String> tmp = new ArrayList<String>();
 			tmp.add(mess);
-			Utils.writeFile(tmp, "/root/NeuralProgramSynthesis/dsl/data/data_buffer.json", false);
+			Utils.writeFile(tmp, "/root/NeuralProgramSynthesis/dsl/data/"+label+".json", false);
 		}
 		catch (Exception e) {
 			throw new IllegalArgumentException(e.getMessage(), e);

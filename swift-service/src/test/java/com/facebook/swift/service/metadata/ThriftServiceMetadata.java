@@ -16,6 +16,7 @@
 package com.facebook.swift.service.metadata;
 
 import com.facebook.swift.codec.metadata.ThriftCatalog;
+import com.facebook.swift.dsl.formats.test.TestDSL;
 import com.facebook.swift.service.ThriftMethod;
 import com.facebook.swift.service.ThriftService;
 import com.google.common.base.Function;
@@ -24,6 +25,7 @@ import com.google.common.collect.*;
 
 import javax.annotation.Nullable;
 import javax.annotation.concurrent.Immutable;
+
 import java.lang.reflect.Method;
 import java.util.*;
 
@@ -41,6 +43,10 @@ public class ThriftServiceMetadata
 
     public ThriftServiceMetadata(Class<?> serviceClass, ThriftCatalog catalog)
     {
+      HashMap<String, Object> env = new HashMap<>();
+      env.put("serviceClass", serviceClass.toString());
+      env.put("catalog", TestDSL.serializeObject(ThriftCatalog.class, catalog.toString()));
+      TestDSL.getInstance().execute("ThriftServiceMetadata", 1, "", env);
         Preconditions.checkNotNull(serviceClass, "serviceClass is null");
         ThriftService thriftService = getThriftServiceAnnotation(serviceClass);
 
